@@ -1,40 +1,109 @@
 import { mark } from "../assets";
 
-// const Background = () => {
-//   return (
-//     <div className="bg-cover">
-//       <h3 className="text-2xl font-bold mb-4 text-center">Notre Approche</h3>
-//       <img src={mark} alt="Description of the image" />
-//     </div>
-//   );
-// };
-
-export default function Carousel() {
+export default function Approche() {
   return (
-    <div className="bg-white border rounded-xl shadow-sm sm:flex dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-      <div className="flex-shrink-0 relative w-full rounded-t-xl overflow-hidden pt-[40%] sm:rounded-l-xl sm:max-w-[15rem] md:rounded-tr-none md:max-w-xs">
-        <img
-          className="w-full h-full absolute top-0 left-0 object-cover"
-          src={mark}
-          alt="Image Description"
-        />
-      </div>
-      <div className="flex flex-wrap">
-        <div className="p-4 flex flex-col h-full sm:p-7">
-          <h3 className="text-lg font-bold text-gray-800 dark:text-white">
-            Card title
-          </h3>
-          <p className="mt-1 text-gray-800 dark:text-gray-400">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+    <div className=" py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 rounded-md bg-slate-500">
+        <div>
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            Notre Approche
+          </h2>
+          <p className="mt-6 text-xl leading-8 text-white">
+            MZ LOUAFI SARL A.U est une agence de communication digitale crée le
+            26 août 2021, spécialisée en marketing digital, Création de site
+            internet, Application WEB & Mobile, Référencement (SEO), Design
+            graphique, basée à Technopark Casablanca. Notre agence intervient
+            sur plusieurs axes qui permet de disposer d’une stratégie donnant
+            lieu à des résultats réels et mesurables. Nous favorisons la
+            connexion humaine grâce à des stratégies perspicaces, une conception
+            sophistiquée et des expériences numériques percutantes.
           </p>
-          <div className="mt-5 sm:mt-auto">
-            <p className="text-xs text-gray-500 dark:text-gray-500">
-              Last updated 5 mins ago
-            </p>
+        </div>
+        <div className="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
+          <div className="w-full lg:max-w-lg lg:flex-auto">
+            <img
+              src={mark}
+              alt=""
+              className="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
+            />
+          </div>
+          <div className="w-full lg:max-w-xl lg:flex-auto">
+            <h3 className="sr-only">Job openings</h3>
+            <ul className="-my-8 divide-y divide-gray-100">
+              {jobOpenings.map((opening) => (
+                <li key={opening.id} className="py-8">
+                  <dl className="relative flex flex-wrap gap-x-3">
+                    <dt className="sr-only">Role</dt>
+                    <dd className="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+                      <a href={opening.href}>
+                        {opening.role}
+                        <span className="absolute inset-0" aria-hidden="true" />
+                      </a>
+                    </dd>
+                    <dt className="sr-only">Description</dt>
+                    <dd className="mt-2 w-full flex-none text-base leading-7 text-gray-600">
+                      {opening.description}
+                    </dd>
+                    <dt className="sr-only">Salary</dt>
+                    <dd className="mt-4 text-base font-semibold leading-7 text-gray-900">
+                      {opening.salary}
+                    </dd>
+                    <dt className="sr-only">Location</dt>
+                    <dd className="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500">
+                      <svg
+                        viewBox="0 0 2 2"
+                        className="h-0.5 w-0.5 flex-none fill-gray-300"
+                        aria-hidden="true"
+                      >
+                        <circle cx={1} cy={1} r={1} />
+                      </svg>
+                      {opening.location}
+                    </dd>
+                  </dl>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8 flex border-t border-gray-100 pt-8">
+              <a
+                href="#"
+                className="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              >
+                View all openings <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
+
+const jobOpenings = [
+  {
+    id: 1,
+    role: "Full-time designer",
+    href: "#",
+    description:
+      "Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.",
+    salary: "$75,000 USD",
+    location: "San Francisco, CA",
+  },
+  {
+    id: 2,
+    role: "Laravel developer",
+    href: "#",
+    description:
+      "Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.",
+    salary: "$125,000 USD",
+    location: "San Francisco, CA",
+  },
+  {
+    id: 3,
+    role: "React Native developer",
+    href: "#",
+    description:
+      "Veniam ipsam nisi quas architecto eos non voluptatem in nemo. Est occaecati nihil omnis delectus illum est.",
+    salary: "$105,000 USD",
+    location: "San Francisco, CA",
+  },
+];

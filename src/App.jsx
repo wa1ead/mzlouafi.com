@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import Services from "./components/Services";
-import Background from "./components/Carousel";
+import Approche from "./components/Carousel";
 import netBack from "./assets/netBackground.mp4";
 import WebDev from "./assets/web_dev.jpg";
 import MobDev from "./assets/mobile_dev.jpg";
@@ -18,7 +18,7 @@ const App = () => {
         <div className="app">
           <Hero />
           <Services services={serviceData} />
-          <Background />
+          <Approche />
         </div>
       </div>
     </main>
