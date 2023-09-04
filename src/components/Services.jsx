@@ -1,11 +1,9 @@
 const Services = ({ services }) => {
   return (
     <section className="p-5 my-4">
-      <h2 className="text-5xl font-bold text-white mb-4 text-center">
-        Nos Services!
-      </h2>
+      <h1 className="head_text">Nos Services!</h1>
 
-      <div className="grid grid-cols-1 px-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 my-12 px-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {services.map((service, index) => (
           <div
             className="group relative items-center justify-center overflow-hidden cursor-pointer rounded-2xl hover:shadow-xl hover:shadow-black/30 transition-shadow"
