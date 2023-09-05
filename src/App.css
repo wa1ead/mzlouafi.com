@@ -43,7 +43,7 @@ video {
 }
 
 .head_text {
-  @apply text-5xl font-bold leading-[1.15] text-white sm:text-6xl text-center;
+  @apply text-5xl font-bold leading-[1.15] text-white sm:text-5xl text-center;
 }
 
 .orange_gradient {
