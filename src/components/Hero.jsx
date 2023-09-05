@@ -2,11 +2,7 @@ export default function Hero() {
   return (
     <div>
       <div className="relative isolate px-6 lg:px-8">
-        <div
-          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-          aria-hidden="true"
-        ></div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-40 lg:py-40">
+        <div className="mx-auto p-32 sm:py-40 lg:py-40">
           <div className="text-center">
             <h1 className="head_text">Digitaliser Votre Business</h1>
             <h1 className="head_text mt-8">

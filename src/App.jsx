@@ -1,4 +1,3 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -13,31 +12,23 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <main>
-        <div className="main">
-          <div className="background-video">
-            <video src={netBack} autoPlay loop muted />
-          </div>
-          <div className="app">
-            <Routes>
-              <Route exact path="/#" element={<Hero />} />
-              <Route
-                path="/Services"
-                element={<Services services={serviceData} />}
-              />
-              <Route path="/Statistics" element={<Stats />} />
-              <Route path="/Approche" element={<Approche />} />
-            </Routes>
-            <Navbar />
-            <Hero />
-            <Services services={serviceData} />
-            <Stats />
-            <Approche />
-          </div>
-        </div>
-      </main>
-    </BrowserRouter>
+    <main>
+      <div className="background-video">
+        <video src={netBack} autoPlay loop muted />
+      </div>
+      <div className="pb-4">
+        <Navbar />
+      </div>
+      <div className="main">
+        <div className="gradient" />
+      </div>
+      <div className="">
+        <Hero />
+        <Services services={serviceData} />
+        <Stats />
+        <Approche />
+      </div>
+    </main>
   );
 };
 

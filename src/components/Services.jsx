@@ -1,7 +1,7 @@
 const Services = ({ services }) => {
   return (
-    <section className="p-5 my-4">
-      <div className="bg-blue-100 p-1 rounded-md">
+    <section className="p-4 m-1">
+      <div className="pt-8 pb-1 rounded-md">
         <h1 className="head_text blue_gradient">Nos Services!</h1>
 
         <div className="grid grid-cols-1 my-12 px-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
