@@ -6,14 +6,14 @@ import GraphDes from "../assets/graphic_design.jpg";
 export default function Services() {
   return (
     // <!-- Card Blog -->
-    <div className="max-w-[85rem] bg-blue-950 rounded-lg px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-8">
+    <div className="max-w-[85rem] bg-blue-950 rounded-lg px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-8 my-8">
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
         <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
           PRESTATIONS
         </h2>
         <p className="mt-1 text-gray-600 dark:text-gray-400">
-          Nous fournissons nombreux services à nos clients!
+          Nous fournissons de nombreux services à nos clients!
         </p>
       </div>
       {/* <!-- End Title --> */}
@@ -31,10 +31,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200 dark:group-hover:text-white">
                 DEVELOPPEMENT WEB
               </h3>
-              <p className="mt-3 text-gray-600 dark:text-gray-400">
+              <p className="mt-3 text-gray-600 dark:text-gray-300">
                 Créez une présence en ligne exceptionnelle avec notre service de
                 développement web.
               </p>
@@ -72,10 +72,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200 dark:group-hover:text-white">
                 DEVELOPPEMENT MOBILE
               </h3>
-              <p className="mt-3 text-gray-600 dark:text-gray-400">
+              <p className="mt-3 text-gray-600 dark:text-gray-300">
                 Transformez vos idées en applications mobiles captivantes grâce
                 à notre service de développement mobile.
               </p>
@@ -113,10 +113,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200 dark:group-hover:text-white">
                 MARKETING DIGITAL
               </h3>
-              <p className="mt-3 text-gray-600 dark:text-gray-400">
+              <p className="mt-3 text-gray-600 dark:text-gray-300">
                 Maximisez votre visibilité en ligne avec notre service de
                 marketing digital.
               </p>
@@ -154,10 +154,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200 dark:group-hover:text-white">
                 DESIGN GRAPHIQUE
               </h3>
-              <p className="mt-3 text-gray-600 dark:text-gray-400">
+              <p className="mt-3 text-gray-600 dark:text-gray-300">
                 Exprimez votre identité visuelle avec notre service de design
                 graphique.
               </p>

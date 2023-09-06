@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import Provides from "./components/Provides";
 import Approche from "./components/Approche";
 import netBack from "./assets/netBackground.mp4";
 import "./App.css";
@@ -17,6 +18,7 @@ const App = () => {
       <div>
         <Hero />
         <Services />
+        <Provides />
         <Approche />
       </div>
     </main>

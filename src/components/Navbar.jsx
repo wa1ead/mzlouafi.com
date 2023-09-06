@@ -92,6 +92,6 @@ export default function Navbar() {
 const navigation = [
   { name: "Acceuil", href: "/" },
   { name: "Services", href: "/Services" },
-  { name: "Contact", href: "#" },
+  { name: "Contact", href: "/Contact" },
   { name: "A Propos", href: "/Approche" },
 ];
