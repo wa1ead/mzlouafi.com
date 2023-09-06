@@ -2,10 +2,10 @@ import { mark } from "../assets";
 
 export default function Approche() {
   return (
-    <div className=" py-32">
+    <div className=" py-16">
       <h2 className="head_text blue_gradient pb-4">Notre Approche</h2>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 rounded-md bg-blue-100">
-        <div className="pt-12 text-xl leading-8 text-black">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 rounded-md bg-blue-950">
+        <div className="font-semibold pt-12 text-xl leading-8 text-white text-center">
           <p>
             MZ LOUAFI SARL A.U est une agence de communication digitale crée le
             26 août 2021, spécialisée en marketing digital, Création de site
@@ -20,39 +20,39 @@ export default function Approche() {
         <div className="mx-auto my-4 flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
           <div className="w-full mt-20 lg:max-w-xl lg:flex-auto">
             <h3 className="sr-only">Job openings</h3>
-            <ul className="-my-8 divide-y divide-blue-600">
+            <ul className="-my-8 divide-y divide-white">
               {jobOpenings.map((opening) => (
                 <li key={opening.id} className="py-8">
                   <dl className="relative flex flex-wrap gap-x-3">
                     <dt className="sr-only">Role</dt>
-                    <dd className="w-full flex-none text-lg font-semibold tracking-tight blue_gradient">
+                    <dd className="w-full flex-none text-lg font-semibold tracking-tight text-blue-400">
                       {opening.role}
                       <span className="absolute inset-0" aria-hidden="true" />
                     </dd>
                     <dt className="sr-only">Description</dt>
-                    <dd className="mt-2 w-full flex-none text-base leading-7 text-gray-900">
+                    <dd className="mt-2 w-full flex-none text-base leading-7 text-white">
                       {opening.description}
                     </dd>
                   </dl>
                 </li>
               ))}
             </ul>
-            <div className="mt-8 justify-center flex border-t border-blue-600 pt-8">
-              <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-blue-600 hover:text-blue-500"
-              >
-                Savoir Plus<span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
           </div>
           <div className="w-full lg:max-w-lg lg:flex-auto">
             <img
               src={mark}
               alt="keep it simple"
-              className=" mb-44 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
+              className=" mb-20 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
             />
           </div>
+        </div>
+        <div className="m-8 justify-center flex border-t border-white pt-8">
+          <a
+            href="#"
+            className="text-lg font-semibold mb-5 leading-6 text-blue-100 hover:text-blue-500"
+          >
+            Contactez-nous<span aria-hidden="true">&rarr;</span>
+          </a>
         </div>
       </div>
     </div>

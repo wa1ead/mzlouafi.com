@@ -1,4 +1,4 @@
-export default function Goals() {
+export default function Fonctions() {
   return (
     <div className="">
       <h1 className="head_text blue_gradient mb-4">Fonctionnalites</h1>

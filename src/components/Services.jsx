@@ -1,13 +1,12 @@
 const Services = ({ services }) => {
   return (
-    <section className="p-4 m-1">
-      <div className="pt-8 pb-1 rounded-md">
+    <section className="py-4 m-1">
+      <div className="py-20">
         <h1 className="head_text blue_gradient">Nos Services!</h1>
-
-        <div className="grid grid-cols-1 my-12 px-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 m-4 p-12 rounded-lg bg-blue-950 sm:grid-cols-1 lg:grid-cols-4 gap-2">
           {services.map((service, index) => (
             <div
-              className="group relative items-center justify-center overflow-hidden cursor-pointer rounded-2xl hover:shadow-xl hover:shadow-black/30 transition-shadow"
+              className="group m-1 relative items-center justify-center overflow-hidden cursor-pointer rounded-2xl hover:shadow-xl hover:shadow-black/30 transition-shadow"
               key={index}
             >
               <div className="h-96 w-74">
