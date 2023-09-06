@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import Goals from "./components/Goals";
 import Stats from "./components/Stats";
 import Approche from "./components/Approche";
 import netBack from "./assets/netBackground.mp4";
@@ -19,11 +20,9 @@ const App = () => {
       <div className="pb-4">
         <Navbar />
       </div>
-      <div className="main">
-        <div className="gradient" />
-      </div>
-      <div className="">
+      <div>
         <Hero />
+        <Goals />
         <Services services={serviceData} />
         <Stats />
         <Approche />
