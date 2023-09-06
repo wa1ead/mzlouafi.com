@@ -19,7 +19,6 @@ const App = () => {
       <div className="pb-4">
         <Navbar />
       </div>
-      <div className="main"></div>
       <div>
         <Hero />
         <Fonctions />

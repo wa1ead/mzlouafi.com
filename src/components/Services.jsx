@@ -1,6 +1,6 @@
 const Services = ({ services }) => {
   return (
-    <section className="py-4 m-1">
+    <section className="py-20">
       <div className="py-20">
         <h1 className="head_text blue_gradient">Nos Services!</h1>
         <div className="grid grid-cols-1 m-4 p-12 rounded-lg bg-blue-950 sm:grid-cols-1 lg:grid-cols-4 gap-2">
