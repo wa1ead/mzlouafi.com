@@ -3,7 +3,7 @@ import { mark } from "../assets";
 export default function Approche() {
   return (
     <div className=" py-32">
-      <h2 className="head_text pb-12">Notre Approche</h2>
+      <h2 className="head_text blue_gradient pb-4">Notre Approche</h2>
       <div className="mx-auto max-w-7xl px-6 lg:px-8 rounded-md bg-blue-100">
         <div className="pt-12 text-xl leading-8 text-black">
           <p>

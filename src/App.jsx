@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Goals from "./components/Goals";
-import Stats from "./components/Stats";
 import Approche from "./components/Approche";
 import netBack from "./assets/netBackground.mp4";
 import WebDev from "./assets/web_dev.jpg";
@@ -24,7 +23,6 @@ const App = () => {
         <Hero />
         <Goals />
         <Services services={serviceData} />
-        <Stats />
         <Approche />
       </div>
     </main>
