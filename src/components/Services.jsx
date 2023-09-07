@@ -6,13 +6,13 @@ import GraphDes from "../assets/graphic_design.jpg";
 export default function Services() {
   return (
     // <!-- Card Blog -->
-    <div className="max-w-[85rem] bg-slate-950 rounded-lg px-4 py-10 mx-4 my-20 sm:px-6 lg:px-8 lg:py-14">
+    <div className="max-w-[85rem] rounded-lg px-4 py-10 mx-4 my-20 sm:px-6 lg:px-8 lg:py-14">
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
-        <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+        <h2 className="text-2xl font-thin md:text-4xl md:leading-tight">
           PRESTATIONS
         </h2>
-        <p className="mt-1 text-gray-600 dark:text-gray-400">
+        <p className="mt-1 blue_gradient font-inter text-lg">
           Nous fournissons de nombreux services à nos clients!
         </p>
       </div>
@@ -31,10 +31,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200 dark:group-hover:text-white">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black ">
                 DEVELOPPEMENT WEB
               </h3>
-              <p className="mt-3 text-gray-600 dark:text-gray-300">
+              <p className="mt-3 text-black font-semibold">
                 Créez une présence en ligne exceptionnelle avec notre service de
                 développement web.
               </p>
@@ -72,10 +72,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200 dark:group-hover:text-white">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black">
                 DEVELOPPEMENT MOBILE
               </h3>
-              <p className="mt-3 text-gray-600 dark:text-gray-300">
+              <p className="mt-3 text-black font-semibold">
                 Transformez vos idées en applications mobiles captivantes grâce
                 à notre service de développement mobile.
               </p>
@@ -113,10 +113,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200 dark:group-hover:text-white">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black">
                 MARKETING DIGITAL
               </h3>
-              <p className="mt-3 text-gray-600 dark:text-gray-300">
+              <p className="mt-3 text-black font-semibold">
                 Maximisez votre visibilité en ligne avec notre service de
                 marketing digital.
               </p>
@@ -154,10 +154,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200 dark:group-hover:text-white">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black">
                 DESIGN GRAPHIQUE
               </h3>
-              <p className="mt-3 text-gray-600 dark:text-gray-300">
+              <p className="mt-3 text-black font-semibold">
                 Exprimez votre identité visuelle avec notre service de design
                 graphique.
               </p>
@@ -188,11 +188,11 @@ export default function Services() {
 
       {/* <!-- Card --> */}
       <div className="text-center pt-16">
-        <div className="inline-block bg-white border shadow-sm rounded-full dark:bg-slate-900 dark:border-gray-800">
+        <div className="inline-block bg-white border border-blue-900 shadow-sm rounded-full">
           <div className="py-3 px-4 flex items-center gap-x-2">
             <a
-              className="inline-flex items-center gap-x-1.5 text-blue-400 decoration-2 hover:text-blue-600 font-medium"
-              href="../docs/index.html"
+              className="inline-flex items-center gap-x-1.5 text-blue-900 decoration-2 hover:text-blue-500 font-medium"
+              href="#"
             >
               A propos
               <svg

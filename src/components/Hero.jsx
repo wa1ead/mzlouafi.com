@@ -7,10 +7,10 @@ export default function Hero() {
           <div className="text-center">
             <h1 className="head_text">Digitaliser Votre Business</h1>
             <h1 className="head_text ">
-              <span className="blue_gradient">MZ LOUAFI</span>
+              <span className="blue_gradient font-black">MZ LOUAFI</span>
             </h1>
             <h2 className="desc">
-              <p className="mb-4">
+              <p className="my-4">
                 <b>Agence de communication digitale specialiste dans</b>
               </p>
               <Typed
