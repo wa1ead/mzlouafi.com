@@ -2,37 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.main {
-  width: 100vw;
-  min-height: 100vh;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  padding: 120px 24px 160px 24px;
-  pointer-events: none;
-}
-
-.main:after {
-  content: "";
-  background-image: url("/src/assets/grid.svg");
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  opacity: 0.4;
-  filter: invert(1);
-}
-
-.app {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 video {
   width: 100%;
   height: 100%;
@@ -55,38 +24,14 @@ video {
 
 /* Tailwind Styles */
 
-.blue_btn {
-  @apply m-4 rounded-full cursor-pointer bg-blue-600 text-white py-2 px-6 md:ml-8 hover:bg-indigo-400;
-}
-
 .head_text {
-  @apply text-xl font-bold leading-[1.15] text-white sm:text-5xl text-center;
-}
-
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  @apply text-4xl font-bold text-center leading-[1.15] text-white md:text-6xl sm:text-5xl;
 }
 
 .desc {
-  @apply m-auto mt-6 text-sm text-white sm:text-xl text-center;
-}
-
-.submit_btn {
-  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400;
-}
-
-.link_card {
-  @apply p-3 flex justify-start items-center flex-row bg-white border border-gray-200 gap-3 rounded-lg cursor-pointer;
-}
-
-.copy_btn {
-  @apply w-7 h-7 rounded-full bg-white/10 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur flex justify-center items-center cursor-pointer;
+  @apply text-xl text-center mx-auto mt-6 text-white md:text-2xl sm:text-xl;
 }
 
 .blue_gradient {
   @apply font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
-}
-
-.summary_box {
-  @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
 }
