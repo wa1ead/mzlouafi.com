@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="mx-auto p-24 sm:py-40 lg:py-40">
           <div className="text-center">
             <h1 className="head_text">Digitaliser Votre Business</h1>
-            <h1 className="head_text ">
+            <h1 className="head_text py-8">
               <span className="blue_gradient font-black">MZ LOUAFI</span>
             </h1>
             <h2 className="desc">

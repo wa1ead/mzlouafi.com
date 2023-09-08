@@ -1,4 +1,4 @@
-import { mark } from "../assets";
+import mark from "../assets/mark.png";
 
 export default function Approche() {
   return (
