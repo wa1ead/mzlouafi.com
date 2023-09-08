@@ -1,7 +1,11 @@
 import Typed from "react-typed";
+import netBack from "../assets/netBackground.mp4";
 export default function Hero() {
   return (
     <div>
+      <div className="background-video">
+        <video src={netBack} autoPlay loop muted />
+      </div>
       <div className="relative isolate px-6 lg:px-8">
         <div className="mx-auto p-24 sm:py-40 lg:py-40">
           <div className="text-center">

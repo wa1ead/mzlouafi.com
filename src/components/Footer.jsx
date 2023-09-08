@@ -5,8 +5,8 @@ export default function Footer() {
       <div className="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-950">
         {/* <!-- Grid --> */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-5 text-center">
-          <div>
-            <a className=" w-40" href="/" aria-label="MZ LOUAFI">
+          <div className=" w-40">
+            <a href="/" aria-label="MZ LOUAFI">
               <img src={logo} />
             </a>
           </div>
@@ -15,7 +15,7 @@ export default function Footer() {
           <ul className="text-center">
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                className="inline-flex gap-x-2 text-sm text-white hover:text-blue-400"
                 href="/"
               >
                 Acceuil
@@ -23,7 +23,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                className="inline-flex gap-x-2 text-sm text-white hover:text-blue-400"
                 href="/Services"
               >
                 Services
@@ -31,7 +31,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                className="inline-flex gap-x-2 text-sm text-white hover:text-blue-400"
                 href="/Contact"
               >
                 Contact
@@ -39,7 +39,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                className="inline-flex gap-x-2 text-sm text-white hover:text-blue-400"
                 href="/Approche"
               >
                 A Propos
