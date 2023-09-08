@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Provides from "./components/Provides";
+import Feedback from "./components/Feedback";
 import Approche from "./components/Approche";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
@@ -30,7 +31,7 @@ const App = () => {
             }
           />
           <Route path="/services" element={<Services />} />
-          <Route path="/provides" element={<Provides />} />
+          <Route path="/contact" element={<Feedback />} />
           <Route path="/about" element={<Approche />} />
         </Routes>
       </div>

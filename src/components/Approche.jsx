@@ -48,7 +48,7 @@ export default function Approche() {
         </div>
         <div className="m-8 justify-center flex border-t border-white pt-8">
           <a
-            href="#"
+            href="/contact"
             className="text-lg font-semibold mb-5 leading-6 text-blue-100 hover:text-blue-500"
           >
             Contactez-nous<span aria-hidden="true">&rarr;</span>

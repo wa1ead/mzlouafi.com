@@ -90,6 +90,6 @@ export default function Navbar() {
 const navigation = [
   { name: "Acceuil", to: "/" },
   { name: "Services", to: "/services" },
-  { name: "Contact", to: "/contact" },
   { name: "A Propos", to: "/about" },
+  { name: "Contact", to: "/contact" },
 ];
