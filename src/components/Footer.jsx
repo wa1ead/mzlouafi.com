@@ -19,7 +19,7 @@ export default function Footer() {
             <div className="md:text-right space-x-2">
               <a
                 className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
-                href="#"
+                href="https://www.linkedin.com/company/mzlouafi/"
               >
                 <FaLinkedin />
               </a>
@@ -98,18 +98,21 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-          <div className="grid space-y-8 justify-around text-white md:text-center">
-            <a href="" className="hover:text-blue-500">
+          <div className="grid space-y-8 text-white md:text-center">
+            <a href="tel:+212645064545" className="hover:text-blue-500">
               <FaPhoneFlip size="20px" className="inline-flex" />
               <span className="ml-6">+212645064545</span>
             </a>
-            <a href="" className="hover:text-blue-500 mr-2">
+            <a
+              href="mailto:waliddraa2@gmail.com"
+              className="hover:text-blue-500 mr-2"
+            >
               <FaEnvelope size="20px" className="inline-flex" />
-              <span className="ml-6"> Mail </span>
+              <span className="ml-6">waliddraa2@gmail.com</span>
             </a>
             <a
               className="hover:text-blue-500 ml-2"
-              href="https://goo.gl/maps/sHZzTNBmYiPFtemW6"
+              href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
             >
               <FaMapPin size="20px" className="inline-flex" />
               <span className="ml-6">
