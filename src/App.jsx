@@ -7,6 +7,7 @@ import Provides from "./components/Provides";
 import Feedback from "./components/Feedback";
 import Approche from "./components/Approche";
 import Newsletter from "./components/Newsletter";
+import Map from "./components/Map";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -32,7 +33,15 @@ const App = () => {
           />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Feedback />} />
-          <Route path="/about" element={<Approche />} />
+          <Route
+            path="/about"
+            element={
+              <React.Fragment>
+                <Approche />
+                <Map />
+              </React.Fragment>
+            }
+          />
         </Routes>
       </div>
       <div>

@@ -192,7 +192,7 @@ export default function Services() {
           <div className="py-3 px-4 flex items-center gap-x-2">
             <a
               className="inline-flex items-center gap-x-1.5 text-blue-900 decoration-2 hover:text-blue-500 font-medium"
-              href="#"
+              href="/about"
             >
               A propos
               <svg
