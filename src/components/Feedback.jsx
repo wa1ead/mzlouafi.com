@@ -2,7 +2,7 @@ export default function Feedback() {
   return (
     // <!-- Hire Us -->
     <>
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-4 bg-slate-950 rounded-lg">
+      <div className="max-w-[85rem] px-4 py-2 my-20 mx-8 sm:px-6 lg:px-8 lg:py-14 bg-slate-950 rounded-lg">
         <div className="max-w-xl mx-auto">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">

@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Provides from "./components/Provides";
-import Demo from "./components/Demo";
+import Advantages from "./components/Advantages";
 import Feedback from "./components/Feedback";
 import Approche from "./components/Approche";
 import Newsletter from "./components/Newsletter";
@@ -26,8 +26,8 @@ const App = () => {
               <React.Fragment>
                 <Hero />
                 <Services />
-                <Demo />
                 <Provides />
+                <Advantages />
                 <Newsletter />
               </React.Fragment>
             }

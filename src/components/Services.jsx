@@ -6,7 +6,7 @@ import GraphDes from "../assets/graphic_design.jpg";
 export default function Services() {
   return (
     // <!-- Card Blog -->
-    <div className="max-w-[85rem] rounded-lg px-4 py-10 mx-4 my-20 sm:px-6 lg:px-8 lg:py-14">
+    <div className="max-w-[85rem] rounded-lg px-4 py-10 mx-4 my-40 sm:px-6 lg:px-8 lg:py-14">
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
         <h2 className="text-2xl font-thin md:text-4xl md:leading-tight">

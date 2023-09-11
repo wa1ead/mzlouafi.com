@@ -2,9 +2,9 @@ import mark from "../assets/mark.png";
 
 export default function Approche() {
   return (
-    <div className=" py-20">
+    <div className="py-20">
       <h2 className="head_text blue_gradient pb-4">Notre Approche</h2>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 rounded-md bg-slate-950">
+      <div className="mx-auto max-w-7xl lg:px-8 rounded-md bg-slate-950">
         <div className="font-semibold pt-12 text-xl leading-8 text-white text-center">
           <p>
             MZ LOUAFI SARL A.U est une agence de communication digitale crée le
