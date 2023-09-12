@@ -67,7 +67,7 @@ export default function Footer() {
           <ul className="text-center">
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-sm text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 text-md text-white hover:text-blue-400"
                 href="/"
               >
                 Acceuil
@@ -75,7 +75,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-sm text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 text-md text-white hover:text-blue-400"
                 href="/services"
               >
                 Services
@@ -83,7 +83,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-sm text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 text-md text-white hover:text-blue-400"
                 href="/contact"
               >
                 Contact
@@ -91,7 +91,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-sm text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 text-md text-white hover:text-blue-400"
                 href="/about"
               >
                 A Propos
@@ -99,23 +99,23 @@ export default function Footer() {
             </li>
           </ul>
           <div className="grid space-y-8 text-white md:text-center">
-            <a href="tel:+212645064545" className="hover:text-blue-500">
-              <FaPhoneFlip size="20px" className="inline-flex" />
-              <span className="ml-6">+212645064545</span>
+            <a href="tel:+212645064545" className="flex hover:text-blue-500">
+              <FaPhoneFlip size="20px" />
+              <span className="mx-4">+212645064545</span>
             </a>
             <a
-              href="mailto:waliddraa2@gmail.com"
-              className="hover:text-blue-500 mr-2"
+              href="mailto:contact@mzlouafi.com"
+              className="flex hover:text-blue-500"
             >
-              <FaEnvelope size="20px" className="inline-flex" />
-              <span className="ml-6">waliddraa2@gmail.com</span>
+              <FaEnvelope size="20px" />
+              <span className="mx-4">contact@mzlouafi.com</span>
             </a>
             <a
-              className="hover:text-blue-500 ml-2"
+              className="flex hover:text-blue-500"
               href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
             >
-              <FaMapPin size="20px" className="inline-flex" />
-              <span className="ml-6">
+              <FaMapPin size="20px" />
+              <span className="mx-2">
                 Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
               </span>
             </a>
