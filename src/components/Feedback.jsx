@@ -1,10 +1,4 @@
-import {
-  FaLinkedin,
-  FaTwitter,
-  FaPhoneFlip,
-  FaEnvelope,
-  FaMapPin,
-} from "react-icons/fa6";
+import { FaPhoneFlip, FaEnvelope } from "react-icons/fa6";
 
 export default function Feedback() {
   return (
@@ -110,9 +104,9 @@ export default function Feedback() {
           </div>
         </div>
       </div>
-      <div className="max-w-[85rem] bg-slate-950 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className=" bg-slate-950 sm:px-6 lg:px-8 lg:py-12 mx-auto mb-0">
         {/* <!-- Grid --> */}
-        <div className="grid sm:grid-cols-2 sm:items-center gap-8">
+        <div className="grid sm:grid-cols-2 gap-8">
           <div className="sm:order-2">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53206.59013979977!2d-7.683450632412853!3d33.54267333559201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d3c77d56d57%3A0x39c864bef89a71f5!2sTechnopark%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1694434963570!5m2!1sen!2sma"
@@ -133,21 +127,24 @@ export default function Feedback() {
           {/* <!-- End Col --> */}
 
           <div className="sm:order-1 space-y-4">
-            <div className="text-3xl font-bold text-white">
-              <h1>Coordonnées</h1>
+            <div className="text-4xl font-bold text-white ">
+              <h1>Coordonnées :</h1>
             </div>
-            <h1 className="flex">
-              <FaPhoneFlip size="40px" color="white" />
-              <span className="text-xl font-bold text-white mx-4 my-2">
-                FAX: +212645064545
-              </span>
-            </h1>
-            <h1 className="flex">
-              <FaEnvelope size="40px" color="white" />
-              <span className="text-xl font-bold text-white mx-4 mt-2">
-                EMAIL: contact@mzlouafi.com
-              </span>
-            </h1>
+
+            <div className="space-y-20 mt-10">
+              <h1 className="flex">
+                <FaPhoneFlip size="40px" color="white" />
+                <span className="text-xl font-bold text-white mx-4 my-2">
+                  FAX: +212645064545
+                </span>
+              </h1>
+              <h1 className="flex">
+                <FaEnvelope size="40px" color="white" />
+                <span className="text-xl font-bold text-white mx-4 mt-2">
+                  EMAIL: contact@mzlouafi.com
+                </span>
+              </h1>
+            </div>
           </div>
         </div>
       </div>
