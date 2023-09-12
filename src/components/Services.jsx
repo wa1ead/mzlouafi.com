@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import WebDev from "../assets/web_dev.jpg";
 import MobDev from "../assets/mobile_dev.jpg";
 import MarkDig from "../assets/marketing_dig.jpg";
@@ -20,7 +21,10 @@ export default function Services() {
       {/* <!-- Grid --> */}
       <div className="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
         {/* <!-- Card --> */}
-        <a className="group rounded-xl overflow-hidden" href="#">
+        <Link
+          className="group rounded-xl overflow-hidden"
+          to="/services/webdev"
+        >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
               <img
@@ -57,11 +61,14 @@ export default function Services() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
         {/* <!-- End Card --> */}
 
         {/* <!-- Card --> */}
-        <a className="group rounded-xl overflow-hidden" href="#">
+        <Link
+          className="group rounded-xl overflow-hidden"
+          to="/services/mobdev"
+        >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
               <img
@@ -98,52 +105,14 @@ export default function Services() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
         {/* <!-- End Card --> */}
 
         {/* <!-- Card --> */}
-        <a className="group rounded-xl overflow-hidden" href="#">
-          <div className="sm:flex">
-            <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-              <img
-                className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl"
-                src={MarkDig}
-                alt="Image Description"
-              />
-            </div>
-
-            <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black">
-                MARKETING DIGITAL
-              </h3>
-              <p className="mt-3 text-black font-semibold">
-                Maximisez votre visibilité en ligne avec notre service de
-                marketing digital.
-              </p>
-              <p className="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:text-blue-400 font-medium">
-                Voir plus
-                <svg
-                  className="w-2.5 h-2.5"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                >
-                  <path
-                    d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </p>
-            </div>
-          </div>
-        </a>
-        {/* <!-- End Card --> */}
-
-        {/* <!-- Card --> */}
-        <a className="group rounded-xl overflow-hidden" href="#">
+        <Link
+          className="group rounded-xl overflow-hidden"
+          to="/services/graphdes"
+        >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
               <img
@@ -180,8 +149,51 @@ export default function Services() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
 
+        {/* <!-- End Card --> */}
+        {/* <!-- Card --> */}
+        <Link
+          className="group rounded-xl overflow-hidden"
+          to="/services/digmark"
+        >
+          <div className="sm:flex">
+            <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
+              <img
+                className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl"
+                src={MarkDig}
+                alt="Image Description"
+              />
+            </div>
+
+            <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black">
+                MARKETING DIGITAL
+              </h3>
+              <p className="mt-3 text-black font-semibold">
+                Maximisez votre visibilité en ligne avec notre service de
+                marketing digital.
+              </p>
+              <p className="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:text-blue-400 font-medium">
+                Voir plus
+                <svg
+                  className="w-2.5 h-2.5"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <path
+                    d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
+        </Link>
         {/* <!-- End Card --> */}
       </div>
       {/* <!-- End Grid --> */}
