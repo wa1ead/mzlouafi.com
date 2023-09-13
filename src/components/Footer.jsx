@@ -8,15 +8,15 @@ import {
 } from "react-icons/fa6";
 export default function Footer() {
   return (
-    <footer className="pt-20">
+    <footer className="pt-2">
       <div className="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-950">
         {/* <!-- Grid --> */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 text-center">
-          <div className=" w-40 ">
+          <div className="w-60 mx-auto">
             <a href="/" aria-label="MZ LOUAFI">
               <img src={logo} />
             </a>
-            <div className="md:text-right space-x-2">
+            <div className="md:text-center space-x-2">
               <a
                 className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
                 href="https://www.linkedin.com/company/mzlouafi/"
@@ -99,19 +99,22 @@ export default function Footer() {
             </li>
           </ul>
           <div className="grid space-y-8 text-white md:text-center">
-            <a href="tel:+212645064545" className="flex hover:text-blue-500">
+            <a
+              href="tel:+212645064545"
+              className="flex justify-start items-center hover:text-blue-500"
+            >
               <FaPhoneFlip size="20px" />
               <span className="mx-4">+212645064545</span>
             </a>
             <a
               href="mailto:contact@mzlouafi.com"
-              className="flex hover:text-blue-500"
+              className="flex justify-start items-center hover:text-blue-500"
             >
               <FaEnvelope size="20px" />
               <span className="mx-4">contact@mzlouafi.com</span>
             </a>
             <a
-              className="flex hover:text-blue-500"
+              className="flex justify-center items-start hover:text-blue-500"
               href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
             >
               <FaMapPin size="20px" />
@@ -122,6 +125,9 @@ export default function Footer() {
           </div>
         </div>
         {/* <!-- End Grid --> */}
+        <div className="flex justify-center pt-8 text-white font-mono text-sm">
+          Copyright © 2023 MZ LOUAFI
+        </div>
       </div>
     </footer>
   );
