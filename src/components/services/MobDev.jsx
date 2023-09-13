@@ -179,7 +179,7 @@ export default function MobbDev() {
             Services
           </h2>
           <p className="mt-1 text-gray-600 dark:text-gray-400">
-            Voir les autres services.
+            Parcourir les autres services.
           </p>
         </div>
         {/* <!-- End Title --> */}
