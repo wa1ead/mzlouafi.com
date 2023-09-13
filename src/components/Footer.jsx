@@ -101,14 +101,14 @@ export default function Footer() {
           <div className="grid space-y-8 text-white md:text-center">
             <a
               href="tel:+212645064545"
-              className="flex justify-start items-center hover:text-blue-500"
+              className="flex justify-center items-center hover:text-blue-500"
             >
               <FaPhoneFlip size="20px" />
               <span className="mx-4">+212645064545</span>
             </a>
             <a
               href="mailto:contact@mzlouafi.com"
-              className="flex justify-start items-center hover:text-blue-500"
+              className="flex justify-center items-center hover:text-blue-500"
             >
               <FaEnvelope size="20px" />
               <span className="mx-4">contact@mzlouafi.com</span>
@@ -118,14 +118,14 @@ export default function Footer() {
               href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
             >
               <FaMapPin size="20px" />
-              <span className="mx-2">
+              <span className="text-center mx-4 sm:mx-0">
                 Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
               </span>
             </a>
           </div>
         </div>
         {/* <!-- End Grid --> */}
-        <div className="flex justify-center pt-8 text-white font-mono text-sm">
+        <div className="flex justify-center pt-8 pb-0 text-white font-mono text-sm">
           Copyright © 2023 MZ LOUAFI
         </div>
       </div>
