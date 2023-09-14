@@ -17,11 +17,11 @@ export default function Feedback() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-            <h1 className="flex items-center space-x-2">
-              <FaMapPin size="20px" color="white" />
+            <h1 className="flex items-center my-4 space-x-4">
+              <FaMapPin size="25px" color="white" />
               <a
                 href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
-                className="text-lg font-inter text-white hover:text-blue-500 my-4"
+                className="text-xl font-inter text-white hover:text-blue-500 "
               >
                 Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
               </a>
@@ -29,17 +29,17 @@ export default function Feedback() {
           </div>
           {/* <!-- End Col --> */}
 
-          <div className="sm:order-1 space-y-4">
-            <div className="text-5xl font-mons text-white ">
+          <div className="sm:order-1 space-y-4 ">
+            <div className="text-6xl text-center font-mons text-white">
               <h1>Coordonnées :</h1>
             </div>
 
-            <div className="space-y-8 mt-10">
+            <div className="space-y-16 mt-10 py-48">
               <h1 className="flex">
                 <FaPhoneFlip size="40px" color="white" />
                 <a
                   href="tel:+212645064545"
-                  className="text-xl font-inter text-white hover:text-blue-500 mx-4 my-2"
+                  className="text-2xl font-inter text-white hover:text-blue-500 mx-4 my-2"
                 >
                   FAX: +212645064545
                 </a>
@@ -48,7 +48,7 @@ export default function Feedback() {
                 <FaEnvelope size="40px" color="white" />
                 <a
                   href="mailto:contact@mzlouafi.com"
-                  className="text-xl font-inter text-white hover:text-blue-500 mx-4 mt-2"
+                  className="text-2xl font-inter text-white hover:text-blue-500 mx-4 mt-2"
                 >
                   EMAIL: contact@mzlouafi.com
                 </a>

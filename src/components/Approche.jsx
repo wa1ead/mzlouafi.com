@@ -42,7 +42,7 @@ export default function Approche() {
             <img
               src={mark}
               alt="keep it simple"
-              className=" mb-20 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
+              className=" mb-24 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
             />
           </div>
         </div>

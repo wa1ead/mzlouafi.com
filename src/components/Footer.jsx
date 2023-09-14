@@ -24,7 +24,7 @@ export default function Footer() {
                 <FaLinkedin />
               </a>
               <a
-                className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
+                className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition hover:text-gray-200 hover:bg-gray-800 focus:ring-offset-slate-900"
                 href="#"
               >
                 <svg
@@ -65,9 +65,9 @@ export default function Footer() {
           {/* <!-- End Col --> */}
 
           <ul className="text-center">
-            <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
+            <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-500"
                 href="/"
               >
                 Acceuil
@@ -75,7 +75,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-500"
                 href="/services"
               >
                 Services
@@ -83,18 +83,18 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-400"
-                href="/contact"
+                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-500"
+                href="/about"
               >
-                Contact
+                A Propos
               </a>
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-400"
-                href="/about"
+                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-500"
+                href="/contact"
               >
-                A Propos
+                Contact
               </a>
             </li>
           </ul>
