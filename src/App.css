@@ -25,7 +25,7 @@ video {
 /* Tailwind Styles */
 
 .head_text {
-  @apply text-4xl font-bold text-center leading-[1.15] text-white md:text-6xl sm:text-5xl;
+  @apply text-4xl font-mons text-center leading-[1.15] text-white md:text-6xl sm:text-5xl;
 }
 
 .desc {
