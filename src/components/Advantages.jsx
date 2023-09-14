@@ -2,13 +2,13 @@ export default function Demo() {
   return (
     // <!-- Icon Blocks -->
     <div className="bg-slate-950 max-w-[85rem] my-40 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 lg:my-60 mx-auto">
-      <h1 className="text-3xl font-bold text-center text-gray-200">
+      <h1 className="text-3xl font-mons text-center text-gray-100">
         Nos Avantages!
       </h1>
       <div className="my-20 grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
         {/* <!-- Icon Block --> */}
         <div>
-          <div className="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
+          <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
             <svg
               className="w-7 h-7 text-blue-600 dark:text-blue-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -22,10 +22,8 @@ export default function Demo() {
             </svg>
           </div>
           <div className="mt-5">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              Responsive
-            </h3>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
+            <h3 className="text-lg font-mons text-white">Responsive</h3>
+            <p className="font-inter mt-1 text-gray-400">
               Projet responsive et mobile premier sur le web
             </p>
           </div>
@@ -34,7 +32,7 @@ export default function Demo() {
 
         {/* <!-- Icon Block --> */}
         <div>
-          <div className="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
+          <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
             <svg
               className="w-7 h-7 text-blue-600 dark:text-blue-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -49,10 +47,8 @@ export default function Demo() {
             </svg>
           </div>
           <div className="mt-5">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              Personnifiable
-            </h3>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
+            <h3 className="text-lg font-mons text-white">Personnifiable</h3>
+            <p className="font-inter mt-1 text-gray-400">
               Les composants sont facilement personnalisés et extensibles
             </p>
           </div>
@@ -61,7 +57,7 @@ export default function Demo() {
 
         {/* <!-- Icon Block --> */}
         <div>
-          <div className="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
+          <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
             <svg
               className="w-7 h-7 text-blue-600 dark:text-blue-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -75,10 +71,8 @@ export default function Demo() {
             </svg>
           </div>
           <div className="mt-5">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              Documentation
-            </h3>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
+            <h3 className="text-lg font-mons text-white">Documentation</h3>
+            <p className="font-inter mt-1 text-gray-400">
               Chaque composant et plugin est bien documenté
             </p>
           </div>
@@ -87,7 +81,7 @@ export default function Demo() {
 
         {/* <!-- Icon Block --> */}
         <div>
-          <div className="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
+          <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
             <svg
               className="w-7 h-7 text-blue-600 dark:text-blue-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -101,10 +95,8 @@ export default function Demo() {
             </svg>
           </div>
           <div className="mt-5">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              24/7 Support
-            </h3>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
+            <h3 className="text-lg font-mons text-white">24/7 Support</h3>
+            <p className="font-inter mt-1 text-gray-400">
               Contactez-nous 24h/24 et 7j/7
             </p>
           </div>

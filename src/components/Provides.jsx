@@ -15,10 +15,10 @@ export default function Provides() {
           <div className="space-y-6 sm:space-y-8">
             {/* <!-- Title --> */}
             <div className="space-y-2 md:space-y-4">
-              <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
+              <h2 className="font-mons text-3xl lg:text-4xl text-gray-100">
                 Développez Votre Présence Digitale
               </h2>
-              <p className="text-gray-400">
+              <p className="font-inter text-gray-400">
                 Le monde digital, avec ses nouveautés incessantes et ses termes
                 savants peut sembler compliqué au premier abord. Or, malgré
                 cette façade parfois peu encourageante pour les non initiés,
@@ -53,9 +53,9 @@ export default function Provides() {
                 </svg>
                 {/* <!-- End Solid Check --> */}
 
-                <span className="text-sm sm:text-base text-white">
+                <span className="font-inter sm:text-base text-gray-100">
                   <span className="font-bold">
-                    Amplifiez Votre Impact en Ligne:
+                    Amplifiez Votre Impact en Ligne :
                   </span>{" "}
                   Nos Services de Communication Digitale.
                 </span>
@@ -83,9 +83,9 @@ export default function Provides() {
                 </svg>
                 {/* <!-- End Solid Check --> */}
 
-                <span className="text-sm sm:text-base text-white">
+                <span className="font-inter sm:text-base text-gray-100">
                   <span className="font-bold">
-                    Stratégies Digitales Gagnantes:
+                    Stratégies Digitales Gagnantes :
                   </span>{" "}
                   Maximisez Votre Visibilité en Ligne.
                 </span>
@@ -113,9 +113,9 @@ export default function Provides() {
                 </svg>
                 {/* <!-- End Solid Check --> */}
 
-                <span className="text-sm sm:text-base text-white">
+                <span className="font-inter sm:text-base text-gray-100">
                   <span className="font-bold">
-                    Transformez Votre Entreprise Numériquement:
+                    Transformez Votre Entreprise Numériquement :
                   </span>{" "}
                   Notre Expertise en Communication Digitale.
                 </span>

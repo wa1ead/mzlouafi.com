@@ -37,7 +37,7 @@ export default function Navbar() {
             <Link
               key={item.name}
               to={item.to}
-              className=" text-lg font-semibold leading-6 text-blue-900 hover:text-blue-300"
+              className=" text-lg font-mons leading-6 text-blue-900 hover:text-blue-300"
             >
               {item.name}
             </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     to={item.to}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-900 hover:bg-gray-100"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-mons leading-7 text-blue-900 hover:bg-gray-100"
                   >
                     {item.name}
                   </Link>

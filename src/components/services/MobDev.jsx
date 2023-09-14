@@ -24,10 +24,10 @@ export default function MobbDev() {
         {/* <!-- Grid --> */}
         <div className="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
           <div className="lg:col-span-1">
-            <h2 className="font-bold text-2xl md:text-3xl blue_gradient">
+            <h2 className="font-mons text-2xl md:text-3xl blue_gradient">
               DEVELOPPEMENT MOBILE
             </h2>
-            <p className="mt-2 md:mt-4 text-black">
+            <p className="font-inter mt-2 md:mt-4 text-black">
               Le développement mobile est aujourd'hui un élément incontournable
               pour toute entreprise qui souhaite rester compétitive dans l'ère
               numérique. Chez{" "}
@@ -61,10 +61,10 @@ export default function MobbDev() {
                   <FaMobileScreen size="25" />
                 </div>
                 <div className="grow">
-                  <h3 className="text-lg font-semibold blue_gradient">
+                  <h3 className="text-xl font-mons blue_gradient">
                     Expérience Mobile Optimale :
                   </h3>
-                  <p className="mt-1 text-gray-950">
+                  <p className="font-inter mt-1 text-gray-950">
                     Notre équipe de développement mobile est spécialisée dans la
                     création d'applications mobiles et de sites web réactifs qui
                     offrent une expérience utilisateur exceptionnelle sur tous
@@ -83,10 +83,10 @@ export default function MobbDev() {
                   <FaReact size="25" />
                 </div>
                 <div className="grow">
-                  <h3 className="text-lg font-semibold blue_gradient">
+                  <h3 className="text-xl font-mons blue_gradient">
                     Plateformes Multiples :
                   </h3>
-                  <p className="mt-1 text-gray-950">
+                  <p className="font-inter mt-1 text-gray-950">
                     Que vous ayez besoin d'une application iOS, Android ou
                     hybride, nous avons l'expertise pour répondre à vos besoins.
                     Nous développons des applications mobiles compatibles avec
@@ -104,10 +104,10 @@ export default function MobbDev() {
                   <FaLock size="25" />
                 </div>
                 <div className="grow">
-                  <h3 className="text-lg font-semibold blue_gradient">
+                  <h3 className="text-xl font-mons blue_gradient">
                     Performance et Sécurité :
                   </h3>
-                  <p className="mt-1 text-gray-950">
+                  <p className="font-inter mt-1 text-gray-950">
                     La performance et la sécurité sont cruciales pour le succès
                     d'une application mobile. Notre équipe s'engage à créer des
                     applications rapides, fiables et sécurisées. Nous suivons
@@ -125,10 +125,10 @@ export default function MobbDev() {
                   <FaCodeCompare size="25" />
                 </div>
                 <div className="grow">
-                  <h3 className="text-lg font-semibold blue_gradient">
+                  <h3 className="text-xl font-mons blue_gradient">
                     Intégration et Mises à Jour Facilitées :
                   </h3>
-                  <p className="mt-1 text-gray-950">
+                  <p className="font-inter mt-1 text-gray-950">
                     Nous ne nous contentons pas de développer des applications
                     mobiles, nous nous assurons également qu'elles puissent
                     s'intégrer parfaitement à d'autres systèmes ou services. De
@@ -175,12 +175,10 @@ export default function MobbDev() {
       <div className="bg-slate-950 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* <!-- Title --> */}
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+          <h2 className="text-2xl font-mons md:text-4xl md:leading-tight dark:text-white">
             Services
           </h2>
-          <p className="mt-1 text-gray-600 dark:text-gray-400">
-            Parcourir les autres services.
-          </p>
+          <p className="mt-1 text-gray-400">Parcourir les autres services.</p>
         </div>
         {/* <!-- End Title --> */}
 
@@ -197,11 +195,11 @@ export default function MobbDev() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-3xl font-mons text-white">
                   DEVELOPPEMENT WEB
                 </h1>
 
-                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
                   Voir Plus
                 </button>
               </div>
@@ -219,11 +217,11 @@ export default function MobbDev() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-3xl font-mons text-white">
                   DESIGN GRAPHIQUE
                 </h1>
 
-                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
                   Voir Plus
                 </button>
               </div>
@@ -240,11 +238,11 @@ export default function MobbDev() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-3xl font-mons text-white">
                   MARKETING DIGITAL
                 </h1>
 
-                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
                   Voir Plus
                 </button>
               </div>

@@ -4,7 +4,7 @@ export default function Newsletter() {
     <div className="max-w-6xl py-10 px-4 sm:px-6 lg:px-8 lg:py-16 mx-auto bg-slate-950 rounded-md">
       <div className="max-w-xl text-center mx-auto">
         <div className="mb-5">
-          <h2 className="text-2xl font-bold md:text-3xl md:leading-tight dark:text-white">
+          <h2 className="text-2xl font-mons md:text-3xl md:leading-tight text-white">
             Inscrivez-vous à notre newsletter
           </h2>
         </div>
@@ -24,7 +24,7 @@ export default function Newsletter() {
               />
             </div>
             <a
-              className="w-full sm:w-auto whitespace-nowrap inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800"
+              className="w-full sm:w-auto whitespace-nowrap inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition py-3 px-4 focus:ring-offset-gray-800"
               href="#"
             >
               S`inscrire

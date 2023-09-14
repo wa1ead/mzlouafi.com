@@ -27,7 +27,7 @@ export default function Hero() {
                 typeSpeed={60}
                 backSpeed={40}
                 loop
-                className="font-semibold"
+                className="font-inter"
               />
             </h2>
           </div>

@@ -29,7 +29,7 @@ video {
 }
 
 .desc {
-  @apply text-xl text-center mx-auto mt-6 text-white md:text-2xl sm:text-xl;
+  @apply text-xl font-inter text-center mx-auto mt-6 text-white md:text-2xl sm:text-xl;
 }
 
 .blue_gradient {

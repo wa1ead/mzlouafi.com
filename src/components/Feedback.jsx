@@ -1,4 +1,4 @@
-import { FaPhoneFlip, FaEnvelope } from "react-icons/fa6";
+import { FaPhoneFlip, FaEnvelope, FaMapPin } from "react-icons/fa6";
 
 export default function Feedback() {
   return (
@@ -17,32 +17,41 @@ export default function Feedback() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-            <a
-              href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
-              className="text-lg font-bold text-blue-200 hover:text-blue-500 my-4"
-            >
-              Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
-            </a>
+            <h1 className="flex items-center space-x-2">
+              <FaMapPin size="20px" color="white" />
+              <a
+                href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
+                className="text-lg font-inter text-white hover:text-blue-500 my-4"
+              >
+                Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
+              </a>
+            </h1>
           </div>
           {/* <!-- End Col --> */}
 
           <div className="sm:order-1 space-y-4">
-            <div className="text-4xl font-bold text-white ">
+            <div className="text-5xl font-mons text-white ">
               <h1>Coordonnées :</h1>
             </div>
 
-            <div className="space-y-20 mt-10">
+            <div className="space-y-8 mt-10">
               <h1 className="flex">
                 <FaPhoneFlip size="40px" color="white" />
-                <span className="text-xl font-bold text-white mx-4 my-2">
+                <a
+                  href="tel:+212645064545"
+                  className="text-xl font-inter text-white hover:text-blue-500 mx-4 my-2"
+                >
                   FAX: +212645064545
-                </span>
+                </a>
               </h1>
               <h1 className="flex">
                 <FaEnvelope size="40px" color="white" />
-                <span className="text-xl font-bold text-white mx-4 mt-2">
+                <a
+                  href="mailto:contact@mzlouafi.com"
+                  className="text-xl font-inter text-white hover:text-blue-500 mx-4 mt-2"
+                >
                   EMAIL: contact@mzlouafi.com
-                </span>
+                </a>
               </h1>
             </div>
           </div>
@@ -51,10 +60,10 @@ export default function Feedback() {
       <div className="max-w-[85rem] px-4 py-2 my-20 sm:px-6 lg:px-8 lg:mx-40 lg:py-14 bg-slate-950 rounded-lg">
         <div className="max-w-xl mx-auto">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
+            <h1 className="text-3xl font-mons text-gray-800 sm:text-4xl dark:text-white">
               Contactez-nous!
             </h1>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
+            <p className="font-inter mt-1 text-gray-400">
               Faites-nous part de votre histoire et nous vous contacterons.
             </p>
           </div>
@@ -139,7 +148,7 @@ export default function Feedback() {
               </div>
 
               <div className="mt-3 text-center">
-                <p className="text-sm text-gray-500">
+                <p className="font-inter text-sm text-gray-500">
                   Nous vous répondrons dans 1 à 2 jours ouvrables
                 </p>
               </div>

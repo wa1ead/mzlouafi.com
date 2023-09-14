@@ -19,10 +19,10 @@ export default function WebDev() {
         {/* <!-- Grid --> */}
         <div className="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
           <div className="lg:col-span-1">
-            <h2 className="font-bold text-2xl md:text-3xl blue_gradient">
+            <h2 className="font-mons text-2xl md:text-3xl blue_gradient">
               DEVELOPPEMENT WEB
             </h2>
-            <p className="mt-2 md:mt-4 text-black">
+            <p className="font-inter mt-2 md:mt-4 text-black">
               Le développement web est la pierre angulaire de toute présence en
               ligne réussie. Chez{" "}
               <span className="blue_gradient font-bold">MZ LOUAFI</span>, nous
@@ -57,10 +57,10 @@ export default function WebDev() {
                   <FaCircleNodes size="25" />
                 </div>
                 <div className="grow">
-                  <h3 className="text-lg font-semibold blue_gradient">
+                  <h3 className="text-xl font-mons blue_gradient">
                     Expertise Technique de Pointe :
                   </h3>
-                  <p className="mt-1 text-gray-950">
+                  <p className="font-inter mt-1 text-gray-950">
                     Notre équipe de développement web est composée d'experts
                     chevronnés maîtrisant les dernières technologies et
                     tendances. Nous utilisons des frameworks et des langages de
@@ -77,10 +77,10 @@ export default function WebDev() {
                   <FaDisplay size="25" />
                 </div>
                 <div className="grow">
-                  <h3 className="text-lg font-semibold blue_gradient">
+                  <h3 className="text-xl font-mons blue_gradient">
                     Sites Web Personnalisés :
                   </h3>
-                  <p className="mt-1 text-gray-950">
+                  <p className="font-inter mt-1 text-gray-950">
                     Nous comprenons que chaque entreprise est unique. C'est
                     pourquoi nous nous engageons à créer des sites web
                     entièrement personnalisés pour répondre aux besoins
@@ -98,10 +98,10 @@ export default function WebDev() {
                   <FaRecycle size="25" />
                 </div>
                 <div className="grow">
-                  <h3 className="text-lg font-semibold blue_gradient">
+                  <h3 className="text-xl font-mons blue_gradient">
                     Optimisation pour la Conversion :
                   </h3>
-                  <p className="mt-1 text-gray-950">
+                  <p className="font-inter mt-1 text-gray-950">
                     Nous ne créons pas seulement des sites web, nous créons des
                     outils de conversion. Notre approche intègre des meilleures
                     pratiques en matière d'UX (expérience utilisateur) et de
@@ -120,10 +120,10 @@ export default function WebDev() {
                   <FaGears size="25" />
                 </div>
                 <div className="grow">
-                  <h3 className="text-lg font-semibold blue_gradient">
+                  <h3 className="text-xl font-mons blue_gradient">
                     Maintenance Continue et Support :
                   </h3>
-                  <p className="mt-1 text-gray-950">
+                  <p className="font-inter mt-1 text-gray-950">
                     Votre site web n'est pas "terminé" une fois qu'il est lancé.
                     Nous offrons des services de maintenance continue pour
                     garantir que votre site reste sécurisé, rapide et à jour. De
@@ -170,10 +170,10 @@ export default function WebDev() {
       <div className="bg-slate-950 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* <!-- Title --> */}
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+          <h2 className="text-2xl font-mons md:text-4xl md:leading-tight dark:text-white">
             Services
           </h2>
-          <p className="mt-1 text-gray-600 dark:text-gray-400">
+          <p className="font-inter mt-1 text-gray-400">
             Parcourir les autres services.
           </p>
         </div>
@@ -192,11 +192,11 @@ export default function WebDev() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-3xl font-mons text-white">
                   DEVELOPPEMENT MOBILE
                 </h1>
 
-                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
                   Voir Plus
                 </button>
               </div>
@@ -214,11 +214,11 @@ export default function WebDev() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-3xl font-mons text-white">
                   DESIGN GRAPHIQUE
                 </h1>
 
-                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
                   Voir Plus
                 </button>
               </div>
@@ -235,11 +235,11 @@ export default function WebDev() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-3xl font-mons text-white">
                   MARKETING DIGITAL
                 </h1>
 
-                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
                   Voir Plus
                 </button>
               </div>

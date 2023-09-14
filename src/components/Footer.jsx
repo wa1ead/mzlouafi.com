@@ -18,7 +18,7 @@ export default function Footer() {
             </a>
             <div className="md:text-center space-x-2">
               <a
-                className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
+                className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
                 href="https://www.linkedin.com/company/mzlouafi/"
               >
                 <FaLinkedin />
@@ -67,7 +67,7 @@ export default function Footer() {
           <ul className="text-center">
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-md text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-400"
                 href="/"
               >
                 Acceuil
@@ -75,7 +75,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-md text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-400"
                 href="/services"
               >
                 Services
@@ -83,7 +83,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-md text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-400"
                 href="/contact"
               >
                 Contact
@@ -91,41 +91,41 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 text-md text-white hover:text-blue-400"
+                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-400"
                 href="/about"
               >
                 A Propos
               </a>
             </li>
           </ul>
-          <div className="grid space-y-8 text-white md:text-center">
+          <div className="grid space-y-8 font-inter text-white">
             <a
               href="tel:+212645064545"
-              className="flex justify-center items-center hover:text-blue-500"
+              className="flex justify-start items-center hover:text-blue-500"
             >
               <FaPhoneFlip size="20px" />
               <span className="mx-4">+212645064545</span>
             </a>
             <a
               href="mailto:contact@mzlouafi.com"
-              className="flex justify-center items-center hover:text-blue-500"
+              className="flex justify-start items-center hover:text-blue-500"
             >
               <FaEnvelope size="20px" />
               <span className="mx-4">contact@mzlouafi.com</span>
             </a>
             <a
-              className="flex justify-center items-start hover:text-blue-500"
+              className="flex justify-start items-start hover:text-blue-500"
               href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
             >
               <FaMapPin size="20px" />
-              <span className="text-center mx-4 sm:mx-0">
+              <span className="mx-4">
                 Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
               </span>
             </a>
           </div>
         </div>
         {/* <!-- End Grid --> */}
-        <div className="flex justify-center pt-8 pb-0 text-white font-mono text-sm">
+        <div className="flex justify-evenly pt-4 text-white font-mono text-sm">
           Copyright © 2023 MZ LOUAFI
         </div>
       </div>

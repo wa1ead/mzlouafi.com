@@ -10,7 +10,7 @@ export default function Services() {
     <div className="max-w-[85rem] rounded-lg px-4 py-10 mx-4 my-40 sm:px-6 lg:px-8 lg:py-14">
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
-        <h2 className="text-2xl font-thin md:text-4xl md:leading-tight">
+        <h2 className="text-2xl font-mons md:text-4xl md:leading-tight">
           PRESTATIONS
         </h2>
         <p className="mt-1 blue_gradient font-inter text-lg">
@@ -35,10 +35,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black ">
+              <h3 className="text-xl font-mons blue_gradient group-hover:text-black ">
                 DEVELOPPEMENT WEB
               </h3>
-              <p className="mt-3 text-black font-semibold">
+              <p className="mt-3 text-black font-inter">
                 Créez une présence en ligne exceptionnelle avec notre service de
                 développement web.
               </p>
@@ -79,10 +79,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-mons blue_gradient group-hover:text-black">
                 DEVELOPPEMENT MOBILE
               </h3>
-              <p className="mt-3 text-black font-semibold">
+              <p className="mt-3 text-black font-inter">
                 Transformez vos idées en applications mobiles captivantes grâce
                 à notre service de développement mobile.
               </p>
@@ -123,10 +123,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-mons blue_gradient group-hover:text-black">
                 DESIGN GRAPHIQUE
               </h3>
-              <p className="mt-3 text-black font-semibold">
+              <p className="mt-3 text-black font-inter">
                 Exprimez votre identité visuelle avec notre service de design
                 graphique.
               </p>
@@ -167,10 +167,10 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-semibold blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-mons blue_gradient group-hover:text-black">
                 MARKETING DIGITAL
               </h3>
-              <p className="mt-3 text-black font-semibold">
+              <p className="mt-3 text-black font-inter">
                 Maximisez votre visibilité en ligne avec notre service de
                 marketing digital.
               </p>

@@ -2,10 +2,10 @@ import mark from "../assets/mark.png";
 
 export default function Approche() {
   return (
-    <div className="py-20">
+    <div className="py-20 my-20">
       <h2 className="head_text blue_gradient pb-4">Notre Approche</h2>
       <div className="mx-auto max-w-7xl lg:px-8 rounded-md bg-slate-950">
-        <div className="font-semibold pt-12 text-xl leading-8 text-white text-center">
+        <div className="font-inter pt-12 text-xl leading-8 text-white text-center">
           <p>
             MZ LOUAFI SARL A.U est une agence de communication digitale crée le
             26 août 2021, spécialisée en marketing digital, Création de site
@@ -21,17 +21,17 @@ export default function Approche() {
           <div className="w-full mt-20 lg:max-w-xl lg:flex-auto">
             <h3 className="sr-only">Job openings</h3>
             <ul className="-my-8 divide-y divide-white">
-              {jobOpenings.map((opening) => (
-                <li key={opening.id} className="py-8">
+              {approcheDetails.map((approche) => (
+                <li key={approche.id} className="py-8">
                   <dl className="relative flex flex-wrap gap-x-3">
                     <dt className="sr-only">Role</dt>
-                    <dd className="w-full flex-none text-lg font-semibold tracking-tight text-blue-400">
-                      {opening.role}
+                    <dd className="w-full flex-none text-lg font-mons tracking-tight text-blue-400">
+                      {approche.title}
                       <span className="absolute inset-0" aria-hidden="true" />
                     </dd>
                     <dt className="sr-only">Description</dt>
-                    <dd className="mt-2 w-full flex-none text-base leading-7 text-white">
-                      {opening.description}
+                    <dd className="mt-2 w-full flex-none font-inter text-base leading-7 text-white">
+                      {approche.description}
                     </dd>
                   </dl>
                 </li>
@@ -59,22 +59,22 @@ export default function Approche() {
   );
 }
 
-const jobOpenings = [
+const approcheDetails = [
   {
     id: 1,
-    role: "Inspirer et captiver",
+    title: "Inspirer et captiver",
     description:
       "La création est le point de départ de toute communication digitale efficace. Notre équipe de créatifs talentueux excelle dans la conception de contenu visuel et écrit percutant. Que ce soit à travers des vidéos accrocheuses, des infographies informatives, des articles de blog engageants, ou même des publicités innovantes, nous nous efforçons de créer un contenu qui se démarque dans le bruit numérique.",
   },
   {
     id: 2,
-    role: " Établir des liens significatifs",
+    title: " Établir des liens significatifs",
     description:
       "La véritable puissance de la communication digitale réside dans sa capacité à établir des connexions significatives avec votre public cible. Nous utilisons des stratégies de médias sociaux, de référencement, de marketing par e-mail et bien d'autres tactiques pour garantir que votre message atteigne les bonnes personnes au bon moment. Nous croyons en la construction de relations durables avec votre audience pour créer une fidélité à long terme.",
   },
   {
     id: 3,
-    role: "Transformer les prospects en clients",
+    title: "Transformer les prospects en clients",
     description:
       "Une communication digitale efficace ne se limite pas à l'engagement ; elle doit également conduire à des résultats concrets. Notre approche est axée sur la conversion. Nous travaillons à optimiser votre site web pour encourager les actions telles que les achats en ligne, les demandes de devis, les inscriptions à la newsletter, etc. En utilisant des techniques avancées d'analyse et d'optimisation, nous maximisons le retour sur investissement de vos campagnes.",
   },
