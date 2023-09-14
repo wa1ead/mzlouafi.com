@@ -2,12 +2,16 @@ import Typed from "react-typed";
 import netBack from "../assets/netBackground.mp4";
 export default function Hero() {
   return (
-    <div>
-      <div className="background-video">
-        <video src={netBack} autoPlay loop muted />
-      </div>
-      <div className="relative isolate px-6 lg:px-8">
-        <div className="mx-auto p-24 sm:py-40 lg:py-40">
+    <div className="w-full h-screen relative">
+      <video
+        className="w-full h-full object-cover"
+        src={netBack}
+        autoPlay
+        loop
+        muted
+      />
+      <div className="absolute w-full h-full top-0 left-0">
+        <div className="mx-auto px-20 py-36">
           <div className="text-center">
             <h1 className="head_text">Digitaliser Votre Business</h1>
             <h1 className="head_text py-8">
@@ -19,10 +23,10 @@ export default function Hero() {
               </p>
               <Typed
                 strings={[
-                  "La creation de Site Internet",
-                  "Application Mobile",
-                  "Marketing Digital",
-                  "Design Graphique",
+                  "La creation de Site Web",
+                  "La creation d'Application Mobile",
+                  "Le Design Graphique",
+                  "Le Marketing Digital",
                 ]}
                 typeSpeed={60}
                 backSpeed={40}
@@ -34,13 +38,13 @@ export default function Hero() {
           <div className="mt-16 flex items-center justify-center gap-x-6">
             <a
               href="/about"
-              className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              className="rounded-md bg-blue-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Voir Plus
             </a>
             <a
               href="/contact"
-              className="text-sm font-semibold leading-6 text-white hover:text-blue-400"
+              className="text-md font-semibold leading-6 text-white hover:text-blue-400"
             >
               Contactez-nous <span aria-hidden="true">→</span>
             </a>
