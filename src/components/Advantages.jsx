@@ -1,7 +1,7 @@
 export default function Demo() {
   return (
     // <!-- Icon Blocks -->
-    <div className="bg-slate-950 max-w-[85rem] my-40 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div className="bg-slate-950 max-w-[85rem] my-40 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 lg:my-60 mx-auto">
       <h1 className="text-3xl font-bold text-center text-gray-200">
         Nos Avantages!
       </h1>
