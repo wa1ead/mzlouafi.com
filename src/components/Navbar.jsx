@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="bg-white absolute inset-x-0 top-0 z-50">
+    <header className="bg-white border-blue-950 shadow-lg absolute inset-x-0 top-0 z-50">
       <nav
         className="flex items-center justify-between lg:pr-12"
         aria-label="Global"
