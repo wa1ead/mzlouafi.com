@@ -4,7 +4,7 @@ export default function Feedback() {
   return (
     // <!-- Hire Us -->
     <>
-      <div className=" bg-slate-950 py-12 px-4 sm:px-6 md:px-6 lg:px-8 mx-auto mt-20">
+      <div className=" bg-slate-950 py-12 px-4 sm:px-6 md:px-6 lg:px-8 mx-auto mt-40">
         {/* <!-- Grid --> */}
         <div className="grid sm:grid-cols-2 gap-8">
           <div className="sm:order-2">
