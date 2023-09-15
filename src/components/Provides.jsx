@@ -5,7 +5,7 @@ export default function Provides() {
     // <!-- Features -->
     <div className=" bg-slate-950 py-2 px-4 lg:mx-8 lg:my-20 rounded-lg sm:px-6 lg:px-8 lg:py-4 ">
       {/* <!-- Grid --> */}
-      <div className="my-20 md:grid lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-20">
+      <div className="my-20 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-20">
         <div>
           <img
             className="rounded-xl border border-white"
@@ -16,7 +16,7 @@ export default function Provides() {
         </div>
         {/* <!-- End Col --> */}
 
-        <div className="mt-5 sm:mt-10 lg:mt-0">
+        <div className="mt-5 sm:mt-10">
           <div className="space-y-6 sm:space-y-8">
             {/* <!-- Title --> */}
             <div className="space-y-2 md:space-y-4">
