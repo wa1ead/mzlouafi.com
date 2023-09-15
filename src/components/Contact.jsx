@@ -1,6 +1,6 @@
 import { FaPhoneFlip, FaEnvelope, FaMapPin } from "react-icons/fa6";
 
-export default function Feedback() {
+export default function Contact() {
   return (
     // <!-- Hire Us -->
     <>

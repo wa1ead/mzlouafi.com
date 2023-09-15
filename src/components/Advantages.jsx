@@ -1,16 +1,13 @@
 export default function Demo() {
   return (
     // <!-- Icon Blocks -->
-    <div
-      className="bg-slate-950 max-w-[85rem] mt-40 px-4 py-10 sm:px-6 lg:px-8 lg:pt-14 lg:mt-60 mx-auto"
-      data-aos="fade-down"
-    >
+    <div className="bg-slate-950 max-w-[85rem] mt-40 px-4 py-10 sm:px-6 lg:px-8 lg:pt-14 lg:mt-60 mx-auto">
       <h1 className="text-3xl font-mons text-center text-gray-100">
         Nos Avantages!
       </h1>
       <div className="my-20 grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
         {/* <!-- Icon Block --> */}
-        <div>
+        <div data-aos="zoom-in-right" data-aos-duration="400">
           <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
             <svg
               className="w-7 h-7 text-blue-600 dark:text-blue-500"
@@ -34,7 +31,7 @@ export default function Demo() {
         {/* <!-- End Icon Block --> */}
 
         {/* <!-- Icon Block --> */}
-        <div>
+        <div data-aos="zoom-in-right" data-aos-duration="800">
           <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
             <svg
               className="w-7 h-7 text-blue-600 dark:text-blue-500"
@@ -59,7 +56,7 @@ export default function Demo() {
         {/* <!-- End Icon Block --> */}
 
         {/* <!-- Icon Block --> */}
-        <div>
+        <div data-aos="zoom-in-right" data-aos-duration="1200">
           <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
             <svg
               className="w-7 h-7 text-blue-600 dark:text-blue-500"
@@ -83,7 +80,7 @@ export default function Demo() {
         {/* <!-- End Icon Block --> */}
 
         {/* <!-- Icon Block --> */}
-        <div>
+        <div data-aos="zoom-in-right" data-aos-duration="1600">
           <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
             <svg
               className="w-7 h-7 text-blue-600 dark:text-blue-500"
