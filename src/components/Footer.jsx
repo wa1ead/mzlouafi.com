@@ -9,7 +9,7 @@ import {
 export default function Footer() {
   return (
     <footer className="pt-2">
-      <div className="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-950">
+      <div className="max-w-[85rem] pt-10 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-950">
         {/* <!-- Grid --> */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 text-center">
           <div className="w-60 mx-auto">
@@ -126,7 +126,7 @@ export default function Footer() {
         </div>
         {/* <!-- End Grid --> */}
         <div className="flex justify-evenly pt-4 text-white font-mono text-sm">
-          Copyright © 2023 MZ LOUAFI
+          © 2023 - MZ LOUAFI
         </div>
       </div>
     </footer>
