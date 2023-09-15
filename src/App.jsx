@@ -11,7 +11,6 @@ import Provides from "./components/Provides";
 import Advantages from "./components/Advantages";
 import Feedback from "./components/Feedback";
 import Approche from "./components/Approche";
-import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -32,7 +31,6 @@ const App = () => {
                 <Services />
                 <Provides />
                 <Advantages />
-                <Newsletter />
               </React.Fragment>
             }
           />

@@ -1,7 +1,10 @@
 export default function Demo() {
   return (
     // <!-- Icon Blocks -->
-    <div className="bg-slate-950 max-w-[85rem] my-40 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 lg:my-60 mx-auto">
+    <div
+      className="bg-slate-950 max-w-[85rem] mt-40 px-4 py-10 sm:px-6 lg:px-8 lg:pt-14 lg:mt-60 mx-auto"
+      data-aos="fade-down"
+    >
       <h1 className="text-3xl font-mons text-center text-gray-100">
         Nos Avantages!
       </h1>

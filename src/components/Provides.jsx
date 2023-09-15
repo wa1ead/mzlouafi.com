@@ -3,7 +3,12 @@ import digital from "../assets/digital.jpg";
 export default function Provides() {
   return (
     // <!-- Features -->
-    <div className="max-w-[85rem] bg-slate-950 px-4 py-10  my-40 sm:px-6 lg:px-8 lg:py-14 ">
+    <div
+      className=" bg-slate-950 px-4 py-10  my-40 sm:px-6 lg:px-8 lg:py-14 "
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+    >
       {/* <!-- Grid --> */}
       <div className="my-20 md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
         <div>

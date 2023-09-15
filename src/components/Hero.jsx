@@ -10,7 +10,11 @@ export default function Hero() {
         loop
         muted
       />
-      <div className="absolute w-full h-full top-0 left-0">
+      <div
+        className="absolute w-full h-full top-0 left-0"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
         <div className="mx-auto px-20 py-36">
           <div className="text-center">
             <h1 className="head_text">Digitaliser Votre Business</h1>

@@ -5,7 +5,10 @@ export default function Approche() {
     <div className="py-20 my-20">
       <h2 className="head_text blue_gradient pb-4">Notre Approche</h2>
       <div className="mx-auto max-w-7xl lg:px-8 rounded-md bg-slate-950">
-        <div className="font-inter pt-12 text-xl leading-8 text-white text-center">
+        <div
+          className="font-inter pt-12 text-xl leading-8 text-white text-center"
+          data-aos="fade-up"
+        >
           <p>
             MZ LOUAFI SARL A.U est une agence de communication digitale crée le
             26 août 2021, spécialisée en marketing digital, Création de site
@@ -18,7 +21,11 @@ export default function Approche() {
           </p>
         </div>
         <div className="mx-auto my-4 flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
-          <div className="w-full mt-20 lg:max-w-xl lg:flex-auto">
+          <div
+            className="w-full mt-20 lg:max-w-xl lg:flex-auto"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             <h3 className="sr-only">Job openings</h3>
             <ul className="-my-8 divide-y divide-white">
               {approcheDetails.map((approche) => (
@@ -38,7 +45,11 @@ export default function Approche() {
               ))}
             </ul>
           </div>
-          <div className="w-full lg:max-w-lg lg:flex-auto">
+          <div
+            className="w-full lg:max-w-lg lg:flex-auto"
+            data-aos="flip-up"
+            data-aos-duration="800"
+          >
             <img
               src={mark}
               alt="keep it simple"

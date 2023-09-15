@@ -7,7 +7,7 @@ import GraphDes from "../assets/graphic_design.jpg";
 export default function Services() {
   return (
     // <!-- Card Blog -->
-    <div className="max-w-[85rem] rounded-lg px-4 py-10 mx-4 my-40 sm:px-6 lg:px-8 lg:py-14">
+    <div className=" rounded-lg px-4 py-10 mx-4 my-40 sm:px-6 lg:px-8 lg:py-14">
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
         <h2 className="text-2xl font-mons md:text-4xl md:leading-tight">
@@ -24,6 +24,8 @@ export default function Services() {
         <Link
           className="group rounded-xl overflow-hidden"
           to="/services/webdev"
+          data-aos="fade-down-right"
+          data-aos-duration="800"
         >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
@@ -68,6 +70,8 @@ export default function Services() {
         <Link
           className="group rounded-xl overflow-hidden"
           to="/services/mobdev"
+          data-aos="fade-down-left"
+          data-aos-duration="800"
         >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
@@ -112,6 +116,8 @@ export default function Services() {
         <Link
           className="group rounded-xl overflow-hidden"
           to="/services/graphdes"
+          data-aos="fade-up-right"
+          data-aos-duration="800"
         >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
@@ -156,6 +162,8 @@ export default function Services() {
         <Link
           className="group rounded-xl overflow-hidden"
           to="/services/digmark"
+          data-aos="fade-up-left"
+          data-aos-duration="800"
         >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
@@ -199,7 +207,11 @@ export default function Services() {
       {/* <!-- End Grid --> */}
 
       {/* <!-- Card --> */}
-      <div className="text-center pt-16">
+      <div
+        className="text-center pt-16"
+        data-aos="zoom-in-down"
+        data-aos-duration="800"
+      >
         <div className="inline-block bg-white border border-blue-900 shadow-sm rounded-full">
           <div className="py-3 px-4 flex items-center gap-x-2">
             <a
