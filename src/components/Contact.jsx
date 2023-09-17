@@ -38,16 +38,16 @@ export default function Contact() {
             data-aos="fade-right"
             data-aos-duration="800"
           >
-            <div className="text-6xl text-center font-mons text-white">
+            <div className="text-3xl md:text-6xl max-sm:py-16 text-center font-mons text-white">
               <h1>Coordonnées :</h1>
             </div>
 
-            <div className="space-y-16 mt-10 py-48">
+            <div className="space-y-16 mt-10 py-48 max-md:space-y-2 max-md:pb-4 max-md:pt-0">
               <h1 className="flex">
                 <FaPhoneFlip size="40px" color="white" />
                 <a
                   href="tel:+212645064545"
-                  className="text-2xl font-inter text-white hover:text-blue-500 mx-4 my-2"
+                  className="text-lg md:text-2xl font-inter text-white hover:text-blue-500 mx-4 my-2"
                 >
                   FAX: +212645064545
                 </a>
@@ -56,7 +56,7 @@ export default function Contact() {
                 <FaEnvelope size="40px" color="white" />
                 <a
                   href="mailto:contact@mzlouafi.com"
-                  className="text-2xl font-inter text-white hover:text-blue-500 mx-4 mt-2"
+                  className="text-lg md:text-2xl font-inter text-white hover:text-blue-500 mx-4 mt-2"
                 >
                   EMAIL: contact@mzlouafi.com
                 </a>
@@ -85,39 +85,20 @@ export default function Contact() {
             <form>
               <div className="grid gap-4 lg:gap-6">
                 {/* <!-- Grid --> */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
-                  <div>
-                    <label
-                      htmlFor="hs-firstname-hire-us-2"
-                      className="block text-sm text-gray-700 font-medium dark:text-white"
-                    >
-                      Nom
-                    </label>
-                    <input
-                      type="text"
-                      name="hs-firstname-hire-us-2"
-                      id="hs-firstname-hire-us-2"
-                      className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="hs-lastname-hire-us-2"
-                      className="block text-sm text-gray-700 font-medium dark:text-white"
-                    >
-                      Prenom
-                    </label>
-                    <input
-                      type="text"
-                      name="hs-lastname-hire-us-2"
-                      id="hs-lastname-hire-us-2"
-                      className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
-                    />
-                  </div>
+                <div>
+                  <label
+                    htmlFor="hs-firstname-hire-us-2"
+                    className="block text-sm text-gray-700 font-medium dark:text-white"
+                  >
+                    Nom
+                  </label>
+                  <input
+                    type="text"
+                    name="hs-firstname-hire-us-2"
+                    id="hs-firstname-hire-us-2"
+                    className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
+                  />
                 </div>
-                {/* <!-- End Grid --> */}
-
                 <div>
                   <label
                     htmlFor="hs-work-email-hire-us-2"
