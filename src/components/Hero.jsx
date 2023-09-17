@@ -2,7 +2,7 @@ import Typed from "react-typed";
 import netBack from "../assets/netBackground.mp4";
 export default function Hero() {
   return (
-    <div className="w-full h-screen relative">
+    <div className="relative w-full h-screen">
       <video
         className="w-full h-full object-cover"
         src={netBack}
@@ -22,7 +22,7 @@ export default function Hero() {
               <span className="blue_gradient font-black">MZ LOUAFI</span>
             </h1>
             <h2 className="desc">
-              <p className="my-4">
+              <p className=" my-4">
                 <b>Agence de communication digitale specialiste dans</b>
               </p>
               <Typed

@@ -7,13 +7,13 @@ import GraphDes from "../assets/graphic_design.jpg";
 export default function Services() {
   return (
     // <!-- Card Blog -->
-    <div className=" rounded-lg px-4 py-10 mx-4 my-40 sm:px-6 lg:px-8 lg:py-14">
+    <div className=" rounded-lg px-4 py-10 mx-20 my-40 sm:px-6 lg:px-8 lg:py-14">
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
         <h2 className="text-2xl font-mons md:text-4xl md:leading-tight">
           PRESTATIONS
         </h2>
-        <p className="mt-1 blue_gradient font-inter text-lg">
+        <p className="mt-1 blue_gradient font-inter text-xl">
           Nous fournissons de nombreux services à nos clients!
         </p>
       </div>
@@ -37,7 +37,7 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-mons blue_gradient group-hover:text-black ">
+              <h3 className="text-xl font-incons blue_gradient group-hover:text-black ">
                 DEVELOPPEMENT WEB
               </h3>
               <p className="mt-3 text-black font-inter">
@@ -83,7 +83,7 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-mons blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-incons blue_gradient group-hover:text-black">
                 DEVELOPPEMENT MOBILE
               </h3>
               <p className="mt-3 text-black font-inter">
@@ -129,7 +129,7 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-mons blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-incons blue_gradient group-hover:text-black">
                 DESIGN GRAPHIQUE
               </h3>
               <p className="mt-3 text-black font-inter">
@@ -175,7 +175,7 @@ export default function Services() {
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-mons blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-incons blue_gradient group-hover:text-black">
                 MARKETING DIGITAL
               </h3>
               <p className="mt-3 text-black font-inter">

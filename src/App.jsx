@@ -18,7 +18,7 @@ import "./App.css";
 const App = () => {
   return (
     <main>
-      <div className="pb-4">
+      <div>
         <Navbar />
       </div>
       <div>

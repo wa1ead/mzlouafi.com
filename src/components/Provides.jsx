@@ -8,7 +8,7 @@ export default function Provides() {
       <div className="my-20 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-20">
         <div>
           <img
-            className="rounded-xl border border-white"
+            className="rounded-xl shadow-xl shadow-inherit"
             data-aos="zoom-out"
             src={digital}
             alt="Image Description"

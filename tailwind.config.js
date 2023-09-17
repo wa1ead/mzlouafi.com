@@ -7,6 +7,7 @@ export default {
         inter: ["Inter", "sans-serif"],
         com: ["Comfortaa", "cursive"],
         mons: ["Montserrat", "sans-serif"],
+        incons: ["Inconsolata", "monospace"],
       },
     },
   },
