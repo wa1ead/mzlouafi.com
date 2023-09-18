@@ -3,7 +3,7 @@ import { FaLinkedin, FaPhoneFlip, FaEnvelope, FaMapPin } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-[85rem] pt-10 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-950">
+      <div className="max-w-[85rem] pt-10 px-4 sm:px-6 lg:px-8 bg-slate-950">
         {/* <!-- Grid --> */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 text-center">
           <div className="w-60 mx-auto">
@@ -25,7 +25,7 @@ export default function Footer() {
           <ul className="text-center">
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-500"
+                className="inline-flex gap-x-2 font-mono text-white hover:text-blue-500"
                 href="/"
               >
                 Acceuil
@@ -33,7 +33,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-500"
+                className="inline-flex gap-x-2 font-mono text-white hover:text-blue-500"
                 href="/services"
               >
                 Services
@@ -41,7 +41,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-500"
+                className="inline-flex gap-x-2 font-mono text-white hover:text-blue-500"
                 href="/about"
               >
                 A Propos
@@ -49,7 +49,7 @@ export default function Footer() {
             </li>
             <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
               <a
-                className="inline-flex gap-x-2 font-mons text-white hover:text-blue-500"
+                className="inline-flex gap-x-2 font-mono text-white hover:text-blue-500"
                 href="/contact"
               >
                 Contact

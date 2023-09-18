@@ -9,14 +9,14 @@ export default function Navbar() {
   return (
     <header className="fixed bg-gray-900 shadow-sm bg-opacity-90 bg-clip-padding blur-backdrop-filter inset-x-0 top-0 z-50 w-full">
       <nav
-        className="flex items-center justify-between lg:px-2 lg:py-2"
+        className="flex items-center justify-between lg:px-2"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
+        <div className="flex">
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
-              className="h-8 w-8 lg:h-12 lg:w-12"
+              className="h-8 w-8 max-lg:mx-2 lg:h-12 lg:w-12"
               src={logo}
               alt="MZ LOUAFI"
             />
@@ -37,14 +37,14 @@ export default function Navbar() {
             <Link
               key={item.name}
               to={item.to}
-              className="flex text-lg font-mons leading-6 text-white hover:text-blue-500"
+              className="flex text-lg font-mono leading-6 text-white hover:text-blue-500"
             >
               {item.name}
             </Link>
           ))}
           <a
             href="/contact"
-            className="text-md font-semibold leading-6 text-white hover:text-blue-400"
+            className="text-md font-inter leading-6 text-white hover:text-blue-400"
           >
             Contactez-nous <span aria-hidden="true">→</span>
           </a>
