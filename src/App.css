@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.blur-backdrop-filter {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
 @media screen and (max-width: 640px) {
   .main {
     padding: 0;
@@ -11,11 +16,11 @@
 /* Tailwind Styles */
 
 .head_text {
-  @apply text-4xl font-mons text-center leading-[1.15] text-white md:text-6xl sm:text-4xl;
+  @apply text-4xl font-mons text-center leading-[1.15] text-white lg:text-6xl;
 }
 
 .desc {
-  @apply text-xl font-inter text-center mx-auto mt-6 text-white md:text-2xl sm:text-xl;
+  @apply text-xl font-inter text-center mx-auto mt-6 text-white lg:text-2xl;
 }
 
 .blue_gradient {

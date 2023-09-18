@@ -2,8 +2,8 @@ import digital from "../assets/digital.jpg";
 
 export default function Provides() {
   return (
-    // <!-- Features -->
-    <div className=" bg-slate-950 py-2 px-4 lg:mx-8 lg:my-20 rounded-lg sm:px-6 lg:px-8 lg:py-4 ">
+    <div className=" bg-slate-950 my-20 py-2 px-4 rounded-lg sm:px-6 lg:mx-8 lg:my-60 lg:px-8 lg:py-4 ">
+      {/* // Features */}
       {/* <!-- Grid --> */}
       <div className="my-20 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-20">
         <div>

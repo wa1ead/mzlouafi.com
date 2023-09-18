@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="fixed bg-gray-900 shadow-sm inset-x-0 top-0 z-50 w-full">
+    <header className="fixed bg-gray-900 shadow-sm bg-opacity-90 bg-clip-padding blur-backdrop-filter inset-x-0 top-0 z-50 w-full">
       <nav
         className="flex items-center justify-between lg:px-2 lg:py-2"
         aria-label="Global"
@@ -37,11 +37,17 @@ export default function Navbar() {
             <Link
               key={item.name}
               to={item.to}
-              className=" text-lg font-mons leading-6 text-white hover:text-blue-500"
+              className="flex text-lg font-mons leading-6 text-white hover:text-blue-500"
             >
               {item.name}
             </Link>
           ))}
+          <a
+            href="/contact"
+            className="text-md font-semibold leading-6 text-white hover:text-blue-400"
+          >
+            Contactez-nous <span aria-hidden="true">→</span>
+          </a>
         </div>
       </nav>
       <Dialog
@@ -78,6 +84,12 @@ export default function Navbar() {
                     {item.name}
                   </Link>
                 ))}
+                <a
+                  href="/contact"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-mons leading-7 text-white hover:bg-blue-900"
+                >
+                  Contact
+                </a>
               </div>
             </div>
           </div>
@@ -91,5 +103,4 @@ const navigation = [
   { name: "Acceuil", to: "/" },
   { name: "Services", to: "/services" },
   { name: "A Propos", to: "/about" },
-  { name: "Contact", to: "/contact" },
 ];

@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 import { FaLinkedin, FaPhoneFlip, FaEnvelope, FaMapPin } from "react-icons/fa6";
 export default function Footer() {
   return (
-    <footer className="pt-2">
+    <footer>
       <div className="max-w-[85rem] pt-10 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-950">
         {/* <!-- Grid --> */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 text-center">

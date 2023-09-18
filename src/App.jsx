@@ -10,7 +10,7 @@ import DigMark from "./components/services/DigMark";
 import Provides from "./components/Provides";
 import Advantages from "./components/Advantages";
 import Contact from "./components/Contact";
-import Approche from "./components/Approche";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -28,8 +28,8 @@ const App = () => {
             element={
               <React.Fragment>
                 <Hero />
-                <Services />
                 <Provides />
+                <Services />
                 <Advantages />
               </React.Fragment>
             }
@@ -40,7 +40,7 @@ const App = () => {
           <Route path="/services/graphdes" element={<GraphDes />} />
           <Route path="/services/digmark" element={<DigMark />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<Approche />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
       <div>

@@ -1,11 +1,11 @@
 export default function Demo() {
   return (
     // <!-- Icon Blocks -->
-    <div className="max-w-[85rem] mt-40 px-4 py-10 sm:px-6 lg:px-8 lg:pt-14 lg:mt-60 mx-auto">
-      <h1 className="text-4xl font-incons text-center text-slate-950">
+    <div className="max-w-[85rem] mt-20 px-4 pt-10 sm:px-6 lg:px-8 lg:pt-14 lg:mt-60 mx-auto">
+      <h1 className="text-4xl font-mons text-center text-slate-950">
         Nos Avantages!
       </h1>
-      <div className="bg-gray-300 rounded-xl px-4 py-1 mt-6">
+      <div className="bg-gray-200 rounded-xl px-4 py-1 mt-6">
         <div className="my-20 grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
           {/* <!-- Icon Block --> */}
           <div data-aos="zoom-in-right" data-aos-duration="400">

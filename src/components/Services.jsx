@@ -7,7 +7,7 @@ import GraphDes from "../assets/graphic_design.jpg";
 export default function Services() {
   return (
     // <!-- Card Blog -->
-    <div className=" rounded-lg px-4 py-10 mx-20 my-40 sm:px-6 lg:px-8 lg:py-14">
+    <div className=" rounded-lg my-20 px-4 py-10 sm:px-6 lg:my-40 lg:px-8 lg:py-14">
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
         <h2 className="text-2xl font-mons md:text-4xl md:leading-tight">
@@ -19,7 +19,7 @@ export default function Services() {
       </div>
       {/* <!-- End Title --> */}
       {/* <!-- Grid --> */}
-      <div className="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
+      <div className="grid lg:grid-cols-2 lg:mx-32 lg:gap-y-16 gap-10">
         {/* <!-- Card --> */}
         <Link
           className="group rounded-xl overflow-hidden"

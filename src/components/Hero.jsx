@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="mx-auto px-20 py-36">
           <div className="text-center">
             <h1 className="head_text">Digitaliser Votre Business</h1>
-            <h1 className="head_text py-8">
+            <h1 className="text-5xl lg:text-6xl py-8">
               <span className="blue_gradient font-black">MZ LOUAFI</span>
             </h1>
             <h2 className="desc">
@@ -45,12 +45,6 @@ export default function Hero() {
               className="rounded-md bg-blue-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Voir Plus
-            </a>
-            <a
-              href="/contact"
-              className="text-md font-semibold leading-6 text-white hover:text-blue-400"
-            >
-              Contactez-nous <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
