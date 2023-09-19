@@ -3,7 +3,7 @@ import { FaLinkedin, FaPhoneFlip, FaEnvelope, FaMapPin } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-[85rem] pt-10 px-4 sm:px-6 lg:px-8 bg-slate-950">
+      <div className="max-w-[85rem] pt-10 px-4 sm:px-6 lg:px-8 bg-gray-900">
         {/* <!-- Grid --> */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 text-center">
           <div className="w-60 mx-auto">

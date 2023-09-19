@@ -4,72 +4,51 @@ export default function Contact() {
   return (
     // <!-- Hire Us -->
     <>
-      <div className=" bg-slate-950 py-12 px-4 sm:px-6 md:px-6 lg:px-8 mx-auto mt-40">
-        {/* <!-- Grid --> */}
-        <div className="grid sm:grid-cols-2 gap-8">
-          <div
-            className="sm:order-2"
-            data-aos="zoom-in"
-            data-aos-duration="800"
+      <div className="mt-40">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53206.59013979977!2d-7.683450632412853!3d33.54267333559201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d3c77d56d57%3A0x39c864bef89a71f5!2sTechnopark%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1694434963570!5m2!1sen!2sma"
+          width="100%"
+          height="600"
+          style={{ border: "0" }}
+          allowfullscreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h1 className="flex items-center my-4 space-x-4">
+          <FaMapPin size="25px" color="white" />
+          <a
+            href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
+            className="text-xl font-inter text-white hover:text-blue-500 "
           >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53206.59013979977!2d-7.683450632412853!3d33.54267333559201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d3c77d56d57%3A0x39c864bef89a71f5!2sTechnopark%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1694434963570!5m2!1sen!2sma"
-              width="100%"
-              height="600"
-              style={{ border: "0" }}
-              allowfullscreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-            <h1 className="flex items-center my-4 space-x-4">
-              <FaMapPin size="25px" color="white" />
-              <a
-                href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
-                className="text-xl font-inter text-white hover:text-blue-500 "
-              >
-                Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
-              </a>
-            </h1>
-          </div>
-          {/* <!-- End Col --> */}
+            Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
+          </a>
+        </h1>
+      </div>
+      {/* <!-- End Col --> */}
 
-          <div
-            className="sm:order-1 space-y-4 "
-            data-aos="fade-right"
-            data-aos-duration="800"
-          >
-            <div className="text-3xl md:text-6xl max-sm:py-16 text-center font-mons text-white">
-              <h1>Coordonnées :</h1>
-            </div>
-
-            <div className="space-y-16 mt-10 py-48 max-md:space-y-2 max-md:pb-4 max-md:pt-0">
-              <h1 className="flex">
-                <FaPhoneFlip size="40px" color="white" />
-                <a
-                  href="tel:+212645064545"
-                  className="text-lg md:text-2xl font-inter text-white hover:text-blue-500 mx-4 my-2"
-                >
-                  FAX: +212645064545
-                </a>
-              </h1>
-              <h1 className="flex">
-                <FaEnvelope size="40px" color="white" />
-                <a
-                  href="mailto:contact@mzlouafi.com"
-                  className="text-lg md:text-2xl font-inter text-white hover:text-blue-500 mx-4 mt-2"
-                >
-                  EMAIL: contact@mzlouafi.com
-                </a>
-              </h1>
-            </div>
-          </div>
+      <div className="sm:order-1 space-y-4 ">
+        <div className="space-y-16 mt-10 py-48 max-md:space-y-2 max-md:pb-4 max-md:pt-0">
+          <h1 className="flex">
+            <FaPhoneFlip size="40px" color="white" />
+            <a
+              href="tel:+212645064545"
+              className="text-lg md:text-2xl font-inter text-white hover:text-blue-500 mx-4 my-2"
+            >
+              FAX: +212645064545
+            </a>
+          </h1>
+          <h1 className="flex">
+            <FaEnvelope size="40px" color="white" />
+            <a
+              href="mailto:contact@mzlouafi.com"
+              className="text-lg md:text-2xl font-inter text-white hover:text-blue-500 mx-4 mt-2"
+            >
+              EMAIL: contact@mzlouafi.com
+            </a>
+          </h1>
         </div>
       </div>
-      <div
-        className="max-w-[85rem] px-4 py-2 my-20 sm:px-6 lg:px-8 lg:mx-40 lg:py-14 bg-slate-950 rounded-lg"
-        data-aos="flip-left"
-        data-aos-duration="800"
-      >
+      <div className="max-w-[85rem] px-4 py-2 my-20 sm:px-6 lg:px-8 lg:mx-40 lg:py-14 bg-slate-950 rounded-lg">
         <div className="max-w-xl mx-auto">
           <div className="text-center">
             <h1 className="text-3xl font-mons text-gray-800 sm:text-4xl dark:text-white">

@@ -10,7 +10,7 @@ export default function Services() {
     <div className=" rounded-lg my-20 px-4 py-10 sm:px-6 lg:my-40 lg:px-8 lg:py-14">
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
-        <h2 className="text-2xl font-mons md:text-4xl md:leading-tight">
+        <h2 className="text-2xl font-mons text-blue-950 md:text-4xl md:leading-tight">
           PRESTATIONS
         </h2>
         <p className="mt-1 blue_gradient font-inter text-xl">
@@ -24,8 +24,6 @@ export default function Services() {
         <Link
           className="group rounded-xl overflow-hidden"
           to="/services/webdev"
-          data-aos="fade-down-right"
-          data-aos-duration="800"
         >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
@@ -33,11 +31,13 @@ export default function Services() {
                 className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl"
                 src={WebDev}
                 alt="Image Description"
+                data-aos="fade-right"
+                data-aos-duration="400"
               />
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-incons blue_gradient group-hover:text-black ">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-blue-900 ">
                 DEVELOPPEMENT WEB
               </h3>
               <p className="mt-3 text-black font-inter">
@@ -70,8 +70,6 @@ export default function Services() {
         <Link
           className="group rounded-xl overflow-hidden"
           to="/services/mobdev"
-          data-aos="fade-down-left"
-          data-aos-duration="800"
         >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
@@ -79,14 +77,16 @@ export default function Services() {
                 className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl"
                 src={MobDev}
                 alt="Image Description"
+                data-aos="fade-left"
+                data-aos-duration="400"
               />
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-incons blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-blue-900">
                 DEVELOPPEMENT MOBILE
               </h3>
-              <p className="mt-3 text-black font-inter">
+              <p className="mt-3 text-gray-900 font-inter">
                 Transformez vos idées en applications mobiles captivantes grâce
                 à notre service de développement mobile.
               </p>
@@ -116,8 +116,6 @@ export default function Services() {
         <Link
           className="group rounded-xl overflow-hidden"
           to="/services/graphdes"
-          data-aos="fade-up-right"
-          data-aos-duration="800"
         >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
@@ -125,14 +123,16 @@ export default function Services() {
                 className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl"
                 src={GraphDes}
                 alt="Image Description"
+                data-aos="fade-right"
+                data-aos-duration="400"
               />
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-incons blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-blue-900">
                 DESIGN GRAPHIQUE
               </h3>
-              <p className="mt-3 text-black font-inter">
+              <p className="mt-3 text-gray-900 font-inter">
                 Exprimez votre identité visuelle avec notre service de design
                 graphique.
               </p>
@@ -162,8 +162,6 @@ export default function Services() {
         <Link
           className="group rounded-xl overflow-hidden"
           to="/services/digmark"
-          data-aos="fade-up-left"
-          data-aos-duration="800"
         >
           <div className="sm:flex">
             <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
@@ -171,14 +169,16 @@ export default function Services() {
                 className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl"
                 src={MarkDig}
                 alt="Image Description"
+                data-aos="fade-left"
+                data-aos-duration="400"
               />
             </div>
 
             <div className="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-              <h3 className="text-xl font-incons blue_gradient group-hover:text-black">
+              <h3 className="text-xl font-semibold blue_gradient group-hover:text-blue-900">
                 MARKETING DIGITAL
               </h3>
-              <p className="mt-3 text-black font-inter">
+              <p className="mt-3 text-gray-900 font-inter">
                 Maximisez votre visibilité en ligne avec notre service de
                 marketing digital.
               </p>
@@ -207,11 +207,7 @@ export default function Services() {
       {/* <!-- End Grid --> */}
 
       {/* <!-- Card --> */}
-      <div
-        className="text-center pt-16"
-        data-aos="zoom-in-down"
-        data-aos-duration="800"
-      >
+      <div className="text-center pt-16">
         <div className="inline-block bg-white border border-blue-900 shadow-sm rounded-full">
           <div className="py-3 px-4 flex items-center gap-x-2">
             <a

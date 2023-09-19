@@ -1,14 +1,14 @@
-export default function Demo() {
+export default function Advantages() {
   return (
     // <!-- Icon Blocks -->
     <div className="max-w-[85rem] mt-20 px-4 pt-10 sm:px-6 lg:px-8 lg:pt-14 lg:mt-60 mx-auto">
-      <h1 className="text-4xl font-mons text-center text-slate-950">
+      <h1 className="text-5xl font-mons text-center text-blue-950">
         Nos Avantages!
       </h1>
       <div className="bg-gray-200 rounded-xl px-4 py-1 mt-6">
         <div className="my-20 grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
           {/* <!-- Icon Block --> */}
-          <div data-aos="zoom-in-right" data-aos-duration="400">
+          <div>
             <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
               <svg
                 className="w-7 h-7 text-blue-600 dark:text-blue-500"
@@ -22,7 +22,11 @@ export default function Demo() {
                 <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
               </svg>
             </div>
-            <div className="mt-5">
+            <div
+              className="mt-5"
+              data-aos="zoom-in-right"
+              data-aos-duration="400"
+            >
               <h3 className="text-lg font-mons text-slate-950">Responsive</h3>
               <p className="font-inter mt-1 text-gray-700">
                 Projet responsive et mobile premier sur le web
@@ -32,7 +36,7 @@ export default function Demo() {
           {/* <!-- End Icon Block --> */}
 
           {/* <!-- Icon Block --> */}
-          <div data-aos="zoom-in-right" data-aos-duration="800">
+          <div>
             <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
               <svg
                 className="w-7 h-7 text-blue-600 dark:text-blue-500"
@@ -47,7 +51,11 @@ export default function Demo() {
                 <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" />
               </svg>
             </div>
-            <div className="mt-5">
+            <div
+              className="mt-5"
+              data-aos="zoom-in-right"
+              data-aos-duration="400"
+            >
               <h3 className="text-lg font-mons text-slate-950">
                 Personnifiable
               </h3>
@@ -59,7 +67,7 @@ export default function Demo() {
           {/* <!-- End Icon Block --> */}
 
           {/* <!-- Icon Block --> */}
-          <div data-aos="zoom-in-right" data-aos-duration="1200">
+          <div>
             <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
               <svg
                 className="w-7 h-7 text-blue-600 dark:text-blue-500"
@@ -73,7 +81,11 @@ export default function Demo() {
                 <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
               </svg>
             </div>
-            <div className="mt-5">
+            <div
+              className="mt-5"
+              data-aos="zoom-in-right"
+              data-aos-duration="400"
+            >
               <h3 className="text-lg font-mons text-slate-950">
                 Documentation
               </h3>
@@ -85,7 +97,7 @@ export default function Demo() {
           {/* <!-- End Icon Block --> */}
 
           {/* <!-- Icon Block --> */}
-          <div data-aos="zoom-in-right" data-aos-duration="1600">
+          <div>
             <div className="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-slate-900">
               <svg
                 className="w-7 h-7 text-blue-600 dark:text-blue-500"
@@ -99,7 +111,11 @@ export default function Demo() {
                 <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
               </svg>
             </div>
-            <div className="mt-5">
+            <div
+              className="mt-5"
+              data-aos="zoom-in-right"
+              data-aos-duration="400"
+            >
               <h3 className="text-lg font-mons text-slate-950">24/7 Support</h3>
               <p className="font-inter mt-1 text-gray-700">
                 Contactez-nous 24h/24 et 7j/7

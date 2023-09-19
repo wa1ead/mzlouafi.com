@@ -3,13 +3,15 @@ import netBack from "../assets/netBackground.mp4";
 export default function Hero() {
   return (
     <div className="relative w-full h-screen">
-      <video
-        className="w-full h-full object-cover"
-        src={netBack}
-        autoPlay
-        loop
-        muted
-      />
+      <div className="w-full h-full bg-gray-900/80 absolute">
+        <video
+          className="w-full h-full object-cover mix-blend-overlay"
+          src={netBack}
+          autoPlay
+          loop
+          muted
+        />
+      </div>
       <div
         className="absolute w-full h-full top-0 left-0"
         data-aos="fade-up"

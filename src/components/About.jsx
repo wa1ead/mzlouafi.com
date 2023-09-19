@@ -3,12 +3,11 @@ import mark from "../assets/mark.png";
 export default function Approche() {
   return (
     <div className="py-20 my-20">
-      <h2 className="head_text blue_gradient pb-4">Notre Approche</h2>
+      <h2 className="text-4xl font-mons text-center text-blue-950 pb-4 lg:text-6xl">
+        Notre Approche
+      </h2>
       <div className="mx-auto max-w-7xl lg:px-8 rounded-md bg-slate-950">
-        <div
-          className="font-inter pt-12 text-xl leading-8 text-white text-center"
-          data-aos="fade-up"
-        >
+        <div className="text-lg font-inter text-white text-center pt-12 leading-8 lg:text-xl">
           <p>
             MZ LOUAFI SARL A.U est une agence de communication digitale crée le
             26 août 2021, spécialisée en marketing digital, Création de site
@@ -45,11 +44,7 @@ export default function Approche() {
               ))}
             </ul>
           </div>
-          <div
-            className="w-full lg:max-w-lg lg:flex-auto"
-            data-aos="flip-up"
-            data-aos-duration="800"
-          >
+          <div className="w-full lg:max-w-lg lg:flex-auto">
             <img
               src={mark}
               alt="keep it simple"
