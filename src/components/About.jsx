@@ -11,7 +11,9 @@ export default function Approche() {
       </div>
       <div className="max-w-[1240px] mx-auto text-white relative ">
         <div className="px-4 py-12">
-          <h2 className="head_text pt-20">À propos de nous:</h2>
+          <h2 className="text-4xl font-mons text-center text-slate-400 pt-40 lg:text-6xl">
+            À propos de nous:
+          </h2>
           <p className="desc py-4">
             MZ LOUAFI SARL A.U est une agence de communication digitale crée le
             26 août 2021, spécialisée en marketing digital, Création de site
