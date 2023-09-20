@@ -18,7 +18,7 @@ export default function Approche() {
           <h2 className="text-4xl font-mons text-center text-slate-400 pt-40 lg:text-6xl">
             À propos de nous:
           </h2>
-          <p className="desc py-4">
+          <p className="text-lg font-inter text-center mx-auto mt-6 text-white lg:text-xl py-4">
             MZ LOUAFI SARL A.U est une agence de communication digitale crée le
             26 août 2021, spécialisée en marketing digital, Création de site
             internet, Application WEB & Mobile, Référencement (SEO), Design
@@ -35,7 +35,7 @@ export default function Approche() {
               <h3 className="text-2xl font-mons text-gray-600 my-6">
                 Inspirer et captiver :{" "}
               </h3>
-              <p className="text-lg font-bold ">
+              <p className="text-lg font-semibold ">
                 La création est le point de départ de toute communication
                 digitale efficace. Notre équipe de créatifs talentueux excelle
                 dans la conception de contenu visuel et écrit percutant. Que ce
@@ -51,7 +51,7 @@ export default function Approche() {
               <h3 className="text-2xl font-mons text-gray-600 my-6">
                 Établir des liens significatifs :{" "}
               </h3>
-              <p className="text-lg font-bold ">
+              <p className="text-lg font-semibold ">
                 La véritable puissance de la communication digitale réside dans
                 sa capacité à établir des connexions significatives avec votre
                 public cible. Nous utilisons des stratégies de médias sociaux,
@@ -68,7 +68,7 @@ export default function Approche() {
               <h3 className="text-2xl font-mons text-gray-600 my-6">
                 Transformer les prospects en clients :{" "}
               </h3>
-              <p className="text-lg font-bold ">
+              <p className="text-lg font-semibold ">
                 Une communication digitale efficace ne se limite pas à
                 l'engagement ; elle doit également conduire à des résultats
                 concrets. Notre approche est axée sur la conversion. Nous
