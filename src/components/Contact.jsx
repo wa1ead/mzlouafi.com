@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     // <!-- Hire Us -->
     <>
-      <div className="">
+      <div>
         <div className="w-full h-screen mb-[40rem] lg:mb-80">
           <div className="w-full h-[700px] bg-gray-900/90 absolute">
             <img
