@@ -1,5 +1,9 @@
 import contact from "../assets/contact.jpg";
-import { PhoneIcon } from "@heroicons/react/24/outline";
+import {
+  PhoneIcon,
+  EnvelopeIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
 
 export default function Contact() {
   return (
@@ -18,28 +22,31 @@ export default function Contact() {
               <h2 className="text-4xl font-mons text-center text-slate-400 pt-40 lg:text-6xl">
                 CONTACT
               </h2>
-              <p className="desc py-4">Nous sommes la pour vous servir</p>
+              <p className="desc py-4">Nous sommes là pour vous servir</p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
+            <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-40 text-black">
               <div className="bg-white rounded-xl shadow-2xl">
                 <div className="p-8">
                   <PhoneIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
                   <h3 className="text-xl text-gray-600 my-6">TELEPHONE : </h3>
-                  <p className="text-2xl font-bold ">03003303030</p>
+                  <p className="text-2xl font-bold ">+212645064545</p>
                 </div>
               </div>
               <div className="bg-white rounded-xl shadow-2xl">
                 <div className="p-8">
-                  <PhoneIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
-                  <h3 className="text-xl text-gray-600 my-6">TELEPHONE : </h3>
-                  <p className="text-2xl font-bold ">03003303030</p>
+                  <EnvelopeIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
+                  <h3 className="text-xl text-gray-600 my-6">EMAIL : </h3>
+                  <p className="text-2xl font-bold ">contact@mzlouafi.com</p>
                 </div>
               </div>
               <div className="bg-white rounded-xl shadow-2xl">
                 <div className="p-8">
-                  <PhoneIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
-                  <h3 className="text-xl text-gray-600 my-6">TELEPHONE : </h3>
-                  <p className="text-2xl font-bold ">03003303030</p>
+                  <MapPinIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
+                  <h3 className="text-xl text-gray-600 my-6">LOCATION : </h3>
+                  <p className="text-2xl font-bold ">
+                    Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000,
+                    MA
+                  </p>
                 </div>
               </div>
             </div>
@@ -127,7 +134,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="hidden lg:flex">
+          <div className="block sm:flex">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53206.59013979977!2d-7.683450632412853!3d33.54267333559201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d3c77d56d57%3A0x39c864bef89a71f5!2sTechnopark%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1694434963570!5m2!1sen!2sma"
               width="100%"
