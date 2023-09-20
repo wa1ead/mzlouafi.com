@@ -31,7 +31,7 @@ export default function Approche() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-4 gap-y-8 px-4 pt-10 mb-10 text-black">
           <div className="bg-white rounded-xl shadow-2xl">
-            <div className="px-4 py-2">
+            <div className="p-4">
               <h3 className="text-2xl font-mons text-gray-600 my-6">
                 Inspirer et captiver :{" "}
               </h3>
