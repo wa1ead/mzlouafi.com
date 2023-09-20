@@ -60,10 +60,10 @@ export default function Contact() {
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 py-4 bg-slate-950 ">
-          <div className="rounded-lg">
+          <div className="rounded-lg pt-8">
             <div className="max-w-xl mx-auto">
               <div className="text-center">
-                <h1 className="text-3xl font-mons text-gray-800 sm:text-4xl dark:text-white">
+                <h1 className="text-3xl font-mons text-white sm:text-4xl">
                   Contactez-nous!
                 </h1>
                 <p className="font-inter mt-1 text-gray-400">
