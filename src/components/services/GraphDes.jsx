@@ -170,10 +170,10 @@ export default function GraphDes() {
       <div className="bg-slate-950 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* <!-- Title --> */}
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="text-2xl font-mons md:text-4xl md:leading-tight dark:text-white">
-            Services
-          </h2>
-          <p className="mt-1 text-gray-400">Parcourir les autres services.</p>
+          <h2 className="head_text">Services</h2>
+          <p className="text-xl font-inter text-center mx-auto mt-6 lg:text-2xl text-gray-400">
+            Parcourir les autres services.
+          </p>
         </div>
         {/* <!-- End Title --> */}
 
