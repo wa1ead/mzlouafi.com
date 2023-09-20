@@ -2,13 +2,13 @@ import digital from "../assets/digital.jpg";
 
 export default function Provides() {
   return (
-    <div className=" bg-slate-950 my-20 py-2 px-4 rounded-lg sm:px-6 lg:mx-8 lg:my-60 lg:px-8 lg:py-4 ">
+    <div className=" bg-slate-950 my-20 py-2 px-4 rounded-lg lg:mx-8 lg:my-60 lg:px-8 lg:py-4 ">
       {/* // Features */}
       {/* <!-- Grid --> */}
       <div className="my-20 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-20">
         <div>
           <img
-            className="rounded-xl shadow-2xl shadow-inherit"
+            className="rounded-xl shadow-2xl"
             data-aos="zoom-out"
             src={digital}
             alt="Image Description"
