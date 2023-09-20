@@ -8,9 +8,9 @@ import { FaLinkedin } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-[85rem] pt-10 px-4 sm:px-6 lg:px-8 bg-gray-900">
+      <div className="max-w-[85rem] pt-10 px-4 sm:px-6 lg:px-8 bg-gray-500">
         {/* <!-- Grid --> */}
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-4 text-center">
           <div className="w-60 mx-auto">
             <a href="/" aria-label="MZ LOUAFI">
               <img src={logo} />
@@ -61,7 +61,7 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-          <div className="grid space-y-8 font-inter text-white">
+          <div className="grid space-y-4 font-inter text-white">
             <a
               href="tel:+212645064545"
               className="flex justify-start items-center hover:text-blue-500"
@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
         {/* <!-- End Grid --> */}
         <div className="flex justify-evenly pt-4 text-white font-mono text-sm">
-          © 2023 - MZ LOUAFI
+          Copyright © 2023 - MZ LOUAFI
         </div>
       </div>
     </footer>
