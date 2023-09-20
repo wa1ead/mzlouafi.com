@@ -81,7 +81,7 @@ export default function Footer() {
               href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
             >
               <MapPinIcon className="w-12 text-white rounded-lg" />
-              <span className="flex mx-4">
+              <span className="mx-4 text-left">
                 Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
               </span>
             </a>
