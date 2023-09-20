@@ -1,5 +1,10 @@
 import logo from "../assets/logo.png";
-import { FaLinkedin, FaPhoneFlip, FaEnvelope, FaMapPin } from "react-icons/fa6";
+import {
+  PhoneIcon,
+  EnvelopeIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
+import { FaLinkedin } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer>
@@ -61,22 +66,22 @@ export default function Footer() {
               href="tel:+212645064545"
               className="flex justify-start items-center hover:text-blue-500"
             >
-              <FaPhoneFlip size="20px" />
+              <PhoneIcon className="w-8 text-white rounded-lg" />
               <span className="mx-4">+212645064545</span>
             </a>
             <a
               href="mailto:contact@mzlouafi.com"
               className="flex justify-start items-center hover:text-blue-500"
             >
-              <FaEnvelope size="20px" />
+              <EnvelopeIcon className="w-8 text-white rounded-lg" />
               <span className="mx-4">contact@mzlouafi.com</span>
             </a>
             <a
               className="flex justify-start items-start hover:text-blue-500"
               href="https://goo.gl/maps/1HriGPN9Z1G78r4y6"
             >
-              <FaMapPin size="20px" />
-              <span className="mx-4">
+              <MapPinIcon className="w-12 text-white rounded-lg" />
+              <span className="flex mx-4">
                 Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000, MA
               </span>
             </a>
