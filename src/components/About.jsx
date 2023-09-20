@@ -1,3 +1,7 @@
+import webDev from "../assets/web_dev.jpg";
+import mobDev from "../assets/mobile_dev.jpg";
+import graphDes from "../assets/graphic_design.jpg";
+import digMark from "../assets/marketing_dig.jpg";
 import about from "../assets/about.jpg";
 
 export default function Approche() {
@@ -27,8 +31,8 @@ export default function Approche() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-4 gap-y-8 px-4 pt-10 mb-10 text-black">
           <div className="bg-white rounded-xl shadow-2xl">
-            <div className="p-4">
-              <h3 className="text-2xl text-gray-600 my-6">
+            <div className="px-4 py-2">
+              <h3 className="text-2xl font-mons text-gray-600 my-6">
                 Inspirer et captiver :{" "}
               </h3>
               <p className="text-lg font-bold ">
@@ -44,7 +48,7 @@ export default function Approche() {
           </div>
           <div className="bg-white rounded-xl shadow-2xl">
             <div className="p-4">
-              <h3 className="text-2xl text-gray-600 my-6">
+              <h3 className="text-2xl font-mons text-gray-600 my-6">
                 Établir des liens significatifs :{" "}
               </h3>
               <p className="text-lg font-bold ">
@@ -61,7 +65,7 @@ export default function Approche() {
           </div>
           <div className="bg-white rounded-xl shadow-2xl">
             <div className="p-4">
-              <h3 className="text-2xl text-gray-600 my-6">
+              <h3 className="text-2xl font-mons text-gray-600 my-6">
                 Transformer les prospects en clients :{" "}
               </h3>
               <p className="text-lg font-bold ">
@@ -78,6 +82,107 @@ export default function Approche() {
           </div>
         </div>
       </div>
+      <div className="bg-slate-950 max-w-[85rem] px-2 py-10 mt-80 mx-auto">
+        {/* <!-- Title --> */}
+        <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+          <h2 className="head_text">Services</h2>
+          <p className="text-xl font-inter text-center mx-auto mt-6 lg:text-2xl text-gray-400">
+            Parcourir les autres services.
+          </p>
+        </div>
+        {/* <!-- End Title --> */}
+
+        {/* <!-- Grid --> */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-12">
+          <div className="group relative cursor-pointer items-center justify-center rounded-lg  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+            <a href="/services/webdev">
+              <div className="h-96 w-74">
+                <img
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                  src={webDev}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                <h1 className="text-3xl font-mons text-white">
+                  DEVELOPPEMENT WEB
+                </h1>
+
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
+                  Voir Plus
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <div className="group relative cursor-pointer items-center justify-center rounded-lg  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+            <a href="/services/mobDev">
+              <div className="h-96 w-74">
+                <img
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                  src={mobDev}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                <h1 className="text-3xl font-mons text-white">
+                  DEVELOPPEMENT MOBILE
+                </h1>
+
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
+                  Voir Plus
+                </button>
+              </div>
+            </a>
+          </div>
+          <div className="group relative cursor-pointer items-center justify-center rounded-lg  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+            <a href="/services/graphdes">
+              <div className="h-96 w-74">
+                <img
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                  src={graphDes}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                <h1 className="text-3xl font-mons text-white">
+                  DESIGN GRAPHIQUE
+                </h1>
+
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
+                  Voir Plus
+                </button>
+              </div>
+            </a>
+          </div>
+          <div className="group relative cursor-pointer items-center justify-center rounded-lg  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+            <a href="/services/digmark">
+              <div className="h-96 w-74">
+                <img
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                  src={digMark}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div className="absolute inset-0 flex pt-8 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                <h1 className="text-3xl font-mons text-white">
+                  MARKETING DIGITAL
+                </h1>
+
+                <button className="rounded-full bg-blue-600 py-2 px-3.5 font-inter text-sm capitalize text-white shadow shadow-black/60">
+                  Voir Plus
+                </button>
+              </div>
+            </a>
+          </div>
+          {/* <!-- End Grid --> */}
+        </div>
+      </div>
+      {/* <!-- End Card Blog --> */}
     </div>
   );
 }

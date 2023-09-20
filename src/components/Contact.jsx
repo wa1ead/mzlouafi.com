@@ -28,21 +28,27 @@ export default function Contact() {
               <div className="bg-white rounded-xl shadow-2xl">
                 <div className="p-8">
                   <PhoneIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
-                  <h3 className="text-xl text-gray-600 my-6">TELEPHONE : </h3>
+                  <h3 className="text-xl font-mons text-gray-600 my-6">
+                    TELEPHONE :{" "}
+                  </h3>
                   <p className="text-2xl font-bold ">+212645064545</p>
                 </div>
               </div>
               <div className="bg-white rounded-xl shadow-2xl">
                 <div className="p-8">
                   <EnvelopeIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
-                  <h3 className="text-xl text-gray-600 my-6">EMAIL : </h3>
+                  <h3 className="text-xl font-mons text-gray-600 my-6">
+                    EMAIL :{" "}
+                  </h3>
                   <p className="text-2xl font-bold ">contact@mzlouafi.com</p>
                 </div>
               </div>
               <div className="bg-white rounded-xl shadow-2xl">
                 <div className="p-8">
                   <MapPinIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
-                  <h3 className="text-xl text-gray-600 my-6">LOCATION : </h3>
+                  <h3 className="text-xl font-mons text-gray-600 my-6">
+                    LOCATION :{" "}
+                  </h3>
                   <p className="text-2xl font-bold ">
                     Bureau 262 Technopark, Route de Nouaceur, Casablanca 20000,
                     MA
