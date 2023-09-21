@@ -16,17 +16,16 @@ export default function Approche() {
       <div className="max-w-[1240px] mx-auto text-white relative ">
         <div className="px-4 py-12">
           <h2 className="text-4xl font-mons text-center text-slate-400 pt-40 lg:text-6xl">
-            À propos de nous:
+            Qui somme nous?
           </h2>
           <p className="text-lg font-inter text-center mx-auto mt-6 text-white lg:text-xl py-4">
-            MZ LOUAFI SARL A.U est une agence de communication digitale crée le
-            26 août 2021, spécialisée en marketing digital, Création de site
-            internet, Application WEB & Mobile, Référencement (SEO), Design
-            graphique, basée à Technopark Casablanca. Notre agence intervient
-            sur plusieurs axes qui permet de disposer d’une stratégie donnant
-            lieu à des résultats réels et mesurables. Nous favorisons la
-            connexion humaine grâce à des stratégies perspicaces, une conception
-            sophistiquée et des expériences numériques percutantes.
+            SalutWeb est un service spécialisé dans le web et la communication
+            digitale,déposé de la société MZ LOUAFI S.A.R.L AU. Nous proposons
+            des services avancés et qualifiés pour vous affirmer dans le monde
+            numérique.Notre expertise datant de 8 ans nous permet de vous
+            fournir un service de haute qualité, tout en vous accompagnantdans
+            la création de votre vitrine commerciale, afin de générer des
+            résultats réels et mesurables.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-4 gap-y-8 px-4 pt-10 mb-10 text-black">
