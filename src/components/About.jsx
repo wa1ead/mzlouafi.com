@@ -28,6 +28,9 @@ export default function Approche() {
             résultats réels et mesurables.
           </p>
         </div>
+        <h2 className="text-4xl font-mons text-center text-slate-400 pt-4 lg:text-6xl">
+          Notre approche :
+        </h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-4 gap-y-8 px-4 pt-10 mb-10 text-black">
           <div className="bg-white rounded-xl shadow-2xl">
             <div className="p-4">
