@@ -20,10 +20,10 @@ export default function Approche() {
           </h2>
           <p className="text-lg font-inter text-center mx-auto mt-6 text-white lg:text-xl py-4">
             SalutWeb est un service spécialisé dans le web et la communication
-            digitale,déposé de la société MZ LOUAFI S.A.R.L AU. Nous proposons
+            digitale, déposé de la société MZ LOUAFI S.A.R.L AU. Nous proposons
             des services avancés et qualifiés pour vous affirmer dans le monde
-            numérique.Notre expertise datant de 8 ans nous permet de vous
-            fournir un service de haute qualité, tout en vous accompagnantdans
+            numérique. Notre expertise datant de 8 ans nous permet de vous
+            fournir un service de haute qualité, tout en vous accompagnant dans
             la création de votre vitrine commerciale, afin de générer des
             résultats réels et mesurables.
           </p>
