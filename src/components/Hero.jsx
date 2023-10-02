@@ -44,7 +44,7 @@ export default function Hero() {
           <div className="mt-16 flex items-center justify-center gap-x-6">
             <a
               href="/about"
-              className="rounded-full bg-transparent border-[2px] border-blue-600 px-3.5 py-2.5 text-md lg:text-xl font-inter text-white shadow-sm hover:bg-white hover:text-blue-600"
+              className="rounded-full bg-transparent border-[2px] border-blue-600 px-3.5 py-2.5 text-md lg:text-xl font-inter text-white shadow-sm hover:border-opacity-5 hover:text-blue-600"
             >
               Voir Plus
             </a>
