@@ -7,9 +7,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="fixed bg-gray-900 shadow-sm bg-opacity-95 bg-clip-padding blur-backdrop-filter inset-x-0 top-0 z-50 w-full">
+    <header className="fixed bg-white shadow-sm bg-opacity-95 bg-clip-padding blur-backdrop-filter inset-x-0 top-0 z-50 w-full">
       <nav
-        className="flex items-center justify-between lg:px-2"
+        className="flex items-center justify-between py-2 px-4"
         aria-label="Global"
       >
         <div className="flex">
@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-5 text-white"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-5 text-blue-900"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -37,14 +37,14 @@ export default function Navbar() {
             <Link
               key={item.name}
               to={item.to}
-              className="flex text-lg font-incons leading-6 text-white hover:text-blue-500"
+              className="flex text-lg font-mons leading-6 text-blue-600 hover:text-blue-900"
             >
               {item.name}
             </Link>
           ))}
           <a
             href="/contact"
-            className="text-md font-inter leading-6 text-white hover:text-blue-500"
+            className="text-md font-inter leading-6 text-blue-500 hover:text-blue-900"
           >
             Contactez-nous <span aria-hidden="true">→</span>
           </a>
