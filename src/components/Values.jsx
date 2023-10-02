@@ -1,11 +1,11 @@
-export default function Advantages() {
+export default function Values() {
   return (
     // <!-- Icon Blocks -->
     <div className="max-w-[85rem] mt-20 px-4 pt-10 sm:px-6 lg:px-8 lg:pt-14 lg:mt-60 mx-auto">
       <h1 className="text-5xl font-mons text-center text-blue-950">
-        Nos Avantages!
+        Nos Valeurs!
       </h1>
-      <div className="bg-gray-200 rounded-xl px-4 py-1 mt-6">
+      <div className="rounded-xl px-4 py-1 my-6">
         <div className="my-20 grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
           {/* <!-- Icon Block --> */}
           <div>
@@ -27,7 +27,7 @@ export default function Advantages() {
               data-aos="zoom-in-right"
               data-aos-duration="400"
             >
-              <h3 className="text-lg font-mons text-slate-950">Responsive</h3>
+              <h3 className="text-lg font-mons text-slate-950">L’innovation</h3>
               <p className="font-inter mt-1 text-gray-700">
                 Projet responsive et mobile premier sur le web
               </p>
@@ -56,9 +56,7 @@ export default function Advantages() {
               data-aos="zoom-in-right"
               data-aos-duration="400"
             >
-              <h3 className="text-lg font-mons text-slate-950">
-                Personnifiable
-              </h3>
+              <h3 className="text-lg font-mons text-slate-950">L’excellence</h3>
               <p className="font-inter mt-1 text-gray-700">
                 Les composants sont facilement personnalisés et extensibles
               </p>
@@ -86,9 +84,7 @@ export default function Advantages() {
               data-aos="zoom-in-right"
               data-aos-duration="400"
             >
-              <h3 className="text-lg font-mons text-slate-950">
-                Documentation
-              </h3>
+              <h3 className="text-lg font-mons text-slate-950">La confiance</h3>
               <p className="font-inter mt-1 text-gray-700">
                 Chaque composant et plugin est bien documenté
               </p>
@@ -116,7 +112,9 @@ export default function Advantages() {
               data-aos="zoom-in-right"
               data-aos-duration="400"
             >
-              <h3 className="text-lg font-mons text-slate-950">24/7 Support</h3>
+              <h3 className="text-lg font-mons text-slate-950">
+                Satisfaction client
+              </h3>
               <p className="font-inter mt-1 text-gray-700">
                 Contactez-nous 24h/24 et 7j/7
               </p>
