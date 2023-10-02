@@ -1,3 +1,7 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import contact from "../assets/contact.jpg";
 import {
   PhoneIcon,
@@ -6,6 +10,38 @@ import {
 } from "@heroicons/react/24/outline";
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xyfz96l",
+        "template_heiiyo1",
+        form.current,
+        "7BrzrIQPKzHvRcWdK"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  const notify = () =>
+    toast.success("Message Envoyé!", {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
   return (
     // <!-- Hire Us -->
     <>
@@ -72,7 +108,7 @@ export default function Contact() {
               </div>
               <div className="mt-12">
                 {/* <!-- Form --> */}
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                   <div className="grid gap-4 lg:gap-6">
                     {/* <!-- Grid --> */}
                     <div>
@@ -84,7 +120,7 @@ export default function Contact() {
                       </label>
                       <input
                         type="text"
-                        name="hs-firstname-hire-us-2"
+                        name="name"
                         id="hs-firstname-hire-us-2"
                         className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
                       />
@@ -98,7 +134,7 @@ export default function Contact() {
                       </label>
                       <input
                         type="email"
-                        name="hs-work-email-hire-us-2"
+                        name="email"
                         id="hs-work-email-hire-us-2"
                         autoComplete="email"
                         className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
@@ -114,7 +150,7 @@ export default function Contact() {
                       </label>
                       <textarea
                         id="hs-about-hire-us-2"
-                        name="hs-about-hire-us-2"
+                        name="message"
                         rows="4"
                         className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
                       ></textarea>
@@ -124,6 +160,8 @@ export default function Contact() {
                   <div className="mt-6 grid">
                     <button
                       type="submit"
+                      value="send"
+                      onClick={notify}
                       className="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800"
                     >
                       Envoyer
@@ -154,6 +192,7 @@ export default function Contact() {
           {/* <!-- End Col --> */}
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }
