@@ -8,11 +8,11 @@ import MobDev from "./components/services/MobDev";
 import GraphDes from "./components/services/GraphDes";
 import DigMark from "./components/services/DigMark";
 import Provides from "./components/Provides";
-import Advantages from "./components/Advantages";
+import Mission from "./components/Mission";
+import Values from "./components/Values";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Footer from "./components/Footer";
-
 import "./App.css";
 
 const App = () => {
@@ -30,7 +30,8 @@ const App = () => {
                 <Hero />
                 <Provides />
                 <Services />
-                <Advantages />
+                <Mission />
+                <Values />
               </React.Fragment>
             }
           />
