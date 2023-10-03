@@ -11,7 +11,7 @@ export default function Services() {
       {/* <!-- Title --> */}
       <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
         <h2 className="text-2xl font-mons text-blue-950 md:text-4xl md:leading-tight">
-          PRESTATIONS
+          SERVICES
         </h2>
         <p className="mt-1 blue_gradient font-inter text-xl">
           Nous fournissons de nombreux services à nos clients!

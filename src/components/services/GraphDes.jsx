@@ -12,7 +12,7 @@ export default function GraphDes() {
   return (
     <>
       {/* // <!-- Features --> */}
-      <div className="max-w-[85rem] px-4 py-10 my-20 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 py-10 my-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="aspect-w-16 aspect-h-7">
           <img
             className="w-full h-[600px] object-cover rounded-xl"
@@ -170,7 +170,9 @@ export default function GraphDes() {
       <div className="bg-slate-950 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* <!-- Title --> */}
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="head_text">Services</h2>
+          <h2 className="text-2xl font-mons text-center text-white lg:text-4xl">
+            Services
+          </h2>
           <p className="text-xl font-inter text-center mx-auto mt-6 lg:text-2xl text-gray-400">
             Parcourir les autres services.
           </p>
@@ -178,7 +180,7 @@ export default function GraphDes() {
         {/* <!-- End Title --> */}
 
         {/* <!-- Grid --> */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-12">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mx-12">
           <div className="group relative cursor-pointer items-center justify-center rounded-lg  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
             <a href="/services/webdev">
               <div className="h-96 w-74">
