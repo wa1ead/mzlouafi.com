@@ -14,12 +14,10 @@ export default function Mission() {
                 Nos missions :
               </h2>
               <p className="font-inter text-gray-400">
-                Le monde digital, avec ses nouveautés incessantes et ses termes
-                savants peut sembler compliqué au premier abord. Or, malgré
-                cette façade parfois peu encourageante pour les non initiés,
-                cette idée est à proscrire . <b>MZ LOUAFI</b> vous accompagne
-                dans votre stratégie, & vous facilite l’accès à plusieurs
-                nouvelles facettes :
+                Notre mission ? Vous aidez à définir et mettre en place les
+                outils de communication pertinents, nécessaires pour accroître
+                votre visibilité et assoir votre notoriété & vous facilite
+                l’accès à plusieurs nouvelles facettes :
               </p>
             </div>
             {/* <!-- End Title --> */}
