@@ -1,5 +1,6 @@
 import Typed from "react-typed";
 import netBack from "../assets/netBackground.mp4";
+import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <div className="relative w-full h-screen">
@@ -42,12 +43,12 @@ export default function Hero() {
             </h2>
           </div>
           <div className="mt-16 flex items-center justify-center gap-x-6">
-            <a
+            <Link
               href="/about"
               className="rounded-full bg-transparent border-[2px] border-blue-600 px-3.5 py-2.5 text-md lg:text-xl font-inter text-white shadow-sm hover:border-opacity-5 hover:text-blue-600"
             >
               Voir Plus
-            </a>
+            </Link>
           </div>
         </div>
         <div aria-hidden="true"></div>

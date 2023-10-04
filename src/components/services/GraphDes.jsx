@@ -8,6 +8,7 @@ import {
   FaFileImage,
   FaCompassDrafting,
 } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 export default function GraphDes() {
   return (
     <>
@@ -142,7 +143,7 @@ export default function GraphDes() {
         <div className="text-center pt-16">
           <div className="inline-block bg-white border border-blue-900 shadow-sm rounded-full">
             <div className="py-3 px-4 flex items-center gap-x-2">
-              <a
+              <Link
                 className="inline-flex items-center gap-x-1.5 text-blue-900 decoration-2 hover:text-blue-600 font-medium"
                 href="/contact"
               >
@@ -161,7 +162,7 @@ export default function GraphDes() {
                     strokeLinecap="round"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -182,7 +183,7 @@ export default function GraphDes() {
         {/* <!-- Grid --> */}
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mx-12">
           <div className="group relative cursor-pointer items-center justify-center rounded-lg  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <a href="/services/webdev">
+            <Link href="/services/webdev">
               <div className="h-96 w-74">
                 <img
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
@@ -200,11 +201,11 @@ export default function GraphDes() {
                   Voir Plus
                 </button>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div className="group relative cursor-pointer items-center justify-center rounded-lg  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <a href="/services/mobdev">
+            <Link href="/services/mobdev">
               <div className="h-96 w-74">
                 <img
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
@@ -222,10 +223,10 @@ export default function GraphDes() {
                   Voir Plus
                 </button>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="group relative cursor-pointer items-center justify-center rounded-lg  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <a href="/services/digmark">
+            <Link href="/services/digmark">
               <div className="h-96 w-74">
                 <img
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
@@ -243,7 +244,7 @@ export default function GraphDes() {
                   Voir Plus
                 </button>
               </div>
-            </a>
+            </Link>
           </div>
           {/* <!-- End Grid --> */}
         </div>

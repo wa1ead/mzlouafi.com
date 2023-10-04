@@ -84,12 +84,12 @@ export default function Navbar() {
                     {item.name}
                   </Link>
                 ))}
-                <a
+                <Link
                   href="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-mons leading-7 text-white hover:bg-blue-600"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>

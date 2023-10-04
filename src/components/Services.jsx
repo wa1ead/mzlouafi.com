@@ -210,7 +210,7 @@ export default function Services() {
       <div className="text-center pt-16">
         <div className="inline-block bg-white border border-blue-900 shadow-sm rounded-full">
           <div className="py-3 px-4 flex items-center gap-x-2">
-            <a
+            <Link
               className="inline-flex items-center gap-x-1.5 text-blue-900 decoration-2 hover:text-blue-500 font-medium"
               href="/about"
             >
@@ -229,7 +229,7 @@ export default function Services() {
                   strokeLinecap="round"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
