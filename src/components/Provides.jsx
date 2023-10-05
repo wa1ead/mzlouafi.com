@@ -2,7 +2,7 @@ import digital from "../assets/digital.jpg";
 
 export default function Provides() {
   return (
-    <div className=" bg-slate-950 my-20 py-2 px-4 rounded-lg lg:mx-8 lg:my-60 lg:px-8 lg:py-4 ">
+    <div className=" bg-slate-950 my-20 px-4 py-2 rounded-lg lg:mx-16 lg:my-60 lg:px-16">
       {/* // Features */}
       {/* <!-- Grid --> */}
       <div className="my-20 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-20">

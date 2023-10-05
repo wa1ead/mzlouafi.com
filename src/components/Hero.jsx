@@ -18,7 +18,7 @@ export default function Hero() {
         data-aos="fade-up"
         data-aos-duration="800"
       >
-        <div className="mx-auto sm:px-20 px-2 py-36">
+        <div className="mx-auto sm:px-20 px-2 py-48">
           <div className="text-center">
             <h1 className="head_text">Digitaliser Votre Business</h1>
             <h1 className="text-5xl lg:text-6xl py-8">
@@ -45,13 +45,12 @@ export default function Hero() {
           <div className="mt-16 flex items-center justify-center gap-x-6">
             <Link
               href="/about"
-              className="rounded-full bg-transparent border-[2px] border-blue-600 px-3.5 py-2.5 text-md lg:text-xl font-inter text-white shadow-sm hover:border-opacity-5 hover:text-blue-600"
+              className="rounded-full bg-transparent border-[2px] border-blue-600 px-8 py-4 text-md lg:text-xl font-inter text-white shadow-sm hover:bg-blue-600 hover:text-white"
             >
               Voir Plus
             </Link>
           </div>
         </div>
-        <div aria-hidden="true"></div>
       </div>
     </div>
   );
